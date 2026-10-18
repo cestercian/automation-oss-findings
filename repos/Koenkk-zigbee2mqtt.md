@@ -21,3 +21,6 @@ pnpm 11 (corepack), `pnpm test:coverage`, `npx tsc --noEmit`, `npx biome check l
 
 ## Decision
 PICKED #33399 (device `throttle` ignored because messageNonEmitted lastSeenChanged events publish full state directly). Claim: https://github.com/Koenkk/zigbee2mqtt/issues/33399#issuecomment-6245900977. Most other open issues are device support that belongs in zigbee-herdsman-converters.
+
+## Outcome
+PR #33423 (fix for #33399, base dev) merged by Koenkk on 2026-10-18, about 20 minutes after opening. Small focused fixes with tests land fast here.
