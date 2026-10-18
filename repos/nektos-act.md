@@ -21,3 +21,6 @@ go test.
 
 ## Decision
 SKIPPED: maintenance-only mode.
+
+## Batch32 update (2026-10-18)
+Batch32: spam only.

@@ -21,3 +21,6 @@
 
 ## Decision
 SKIPPED: #2910 targets an archived v3 line and a commenter flagged the fix as incomplete; #2782 Browserbase-hosted.
+
+## Batch32 update (2026-10-18)
+Batch32: only a provider docs request open.

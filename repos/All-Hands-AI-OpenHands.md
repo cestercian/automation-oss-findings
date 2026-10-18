@@ -21,3 +21,6 @@ Agents allowed but must not touch the HUMAN section.
 
 ## Decision
 SKIPPED: open bugs need maintainer decisions or live in other repos.
+
+## Batch32 update (2026-10-18)
+Batch32: open items are parity tasks for the hosted product.

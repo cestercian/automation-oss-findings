@@ -21,3 +21,6 @@ No ban found.
 
 ## Decision
 SKIPPED: no unclaimed, well-scoped bug.
+
+## Batch32 update (2026-10-18)
+Batch32: open bugs are model/provider or desktop specific.

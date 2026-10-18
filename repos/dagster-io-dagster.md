@@ -21,3 +21,6 @@ pytest.
 
 ## Decision
 SKIPPED: #34312 author offered a PR, #34301 has PR #34303, #34080 needs a design decision.
+
+## Batch32 update (2026-10-18)
+Batch32: #34310 is Dagster+ specific; rest feature requests.

@@ -21,3 +21,6 @@ npm run ctest.
 
 ## Decision
 SKIPPED: Android PRs closed; #43492 soft-claimed.
+
+## Batch32 update (2026-10-18)
+Batch32: no free bug-labeled issues.

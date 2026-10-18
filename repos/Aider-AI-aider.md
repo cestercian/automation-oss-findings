@@ -21,3 +21,6 @@ pytest.
 
 ## Decision
 SKIPPED: barely maintained, PRs sit unreviewed.
+
+## Batch32 update (2026-10-18)
+Batch32: only feature asks and spam open.

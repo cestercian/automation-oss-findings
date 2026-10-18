@@ -21,3 +21,6 @@
 
 ## Decision
 SKIPPED: under 10k; #16076 already has PR #15980.
+
+## Batch32 update (2026-10-18)
+Batch32: #16076 and #16075 both already have PRs (#15980, #15698).

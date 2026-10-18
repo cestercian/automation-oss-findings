@@ -21,3 +21,6 @@ make test.
 
 ## Decision
 SKIPPED: #11721 has PR #11727; remaining issues are deep replication bugs.
+
+## Batch32 update (2026-10-18)
+Batch32: #12300 is a deep shard-reload replication bug.

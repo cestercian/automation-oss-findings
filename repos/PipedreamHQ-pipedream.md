@@ -21,3 +21,6 @@
 
 ## Decision
 SKIPPED: bugs are hosted MCP/OAuth config, not repo code.
+
+## Batch32 update (2026-10-18)
+Batch32: #21965 customer options already paginated (hosted MCP issue); others are hosted config.

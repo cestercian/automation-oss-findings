@@ -21,3 +21,6 @@ pnpm test.
 
 ## Decision
 SKIPPED: #21503 fixed, #23045 PR closed, #23153 needs design, #23248 disputed by maintainer.
+
+## Batch32 update (2026-10-18)
+Batch32: #23268 a11y contrast not examined; #23248 disputed.

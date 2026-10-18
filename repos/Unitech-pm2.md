@@ -21,3 +21,6 @@ npm test.
 
 ## Decision
 SKIPPED: #6148 has PR #6149.
+
+## Batch32 update (2026-10-18)
+Batch32: #6171 is a complex watch-restart race ("Callback was already called").

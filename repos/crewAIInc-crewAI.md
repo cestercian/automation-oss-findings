@@ -21,3 +21,6 @@ Issues reserved for student cohorts.
 
 ## Decision
 SKIPPED: open issues are llm-generated cohort tasks or vendor pitches.
+
+## Batch32 update (2026-10-18)
+Batch32: open issues are llm-generated feature/student project tickets.

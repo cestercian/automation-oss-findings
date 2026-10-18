@@ -21,3 +21,6 @@ No ban found.
 
 ## Decision
 SKIPPED: no open bugs (license/security questions only).
+
+## Batch32 update (2026-10-18)
+Batch32: only a license question open.
