@@ -1,0 +1,23 @@
+# node-red/node-red
+
+- Stars: 23.7k
+- Evaluated: 2026-10-18 (batch31)
+- Result: picked
+
+## Contribution rules
+CONTRIBUTING.md: bug fixes go to `main`; features should be discussed on the forum first. PR template asks for a checklist and linked issue.
+
+## AI / agent policy
+No AI ban and no disclosure requirement.
+
+## CLA / DCO
+OpenJS Foundation CLA (bot prompts on the first PR).
+
+## Claim norms
+Comment on the issue; no formal assignment flow.
+
+## Tests / CI
+`npx mocha test/unit/@node-red/registry/lib/registry_spec.js` (full: `npm test` via grunt).
+
+## Decision
+PICKED #6010 (removeModule compared an array to 0, so modules used by others got removed). Claim: https://github.com/node-red/node-red/issues/6010#issuecomment-6245405638. Patch adds two registry tests, 150 passing.
