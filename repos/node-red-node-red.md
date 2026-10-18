@@ -21,3 +21,6 @@ Comment on the issue; no formal assignment flow.
 
 ## Decision
 PICKED #6010 (removeModule compared an array to 0, so modules used by others got removed). Claim: https://github.com/node-red/node-red/issues/6010#issuecomment-6245405638. Patch adds two registry tests, 150 passing.
+
+## Outcome
+PR #6017 opened 2026-10-18; EasyCLA check passed (CLA signed). Awaiting maintainer review.
