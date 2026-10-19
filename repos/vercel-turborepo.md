@@ -21,3 +21,6 @@
 
 ## Decision
 SKIPPED: #14845/#14841 fresh but not examined this batch (nx picked instead).
+
+## Batch33 update (2026-10-18)
+Batch33: #14845 and #14841 already have PRs (#14860, #14859).
