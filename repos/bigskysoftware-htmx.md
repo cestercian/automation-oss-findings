@@ -21,3 +21,6 @@ npm test.
 
 ## Decision
 SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
+
+## Batch35 update (2026-10-22)
+#4151 (expired hx-preload blocks re-preloading) got pushback from maintainer MichaelWest22 (single preload with timeout is by design). Skipped.

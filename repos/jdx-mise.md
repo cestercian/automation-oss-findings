@@ -21,3 +21,6 @@ mise run test
 
 ## Decision
 SKIPPED: no free bug issues.
+
+## Batch35 update (2026-10-22)
+CONTRIBUTING restricts AI replies on discussions/issues. #14855 (`mise rm tool@version` prompts for other versions) is more UX than a scoped bug. Skipped.

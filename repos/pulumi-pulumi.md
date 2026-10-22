@@ -21,3 +21,6 @@ sdk/nodejs: Node 22, `npm ci --ignore-scripts`, then `npx mocha --timeout 300000
 
 ## Decision
 PICKED #25259 (single-member enums / `as const` objects in component args fail with Unsupported type). Claim: https://github.com/pulumi/pulumi/issues/25259#issuecomment-6252888419. Many recent issues are filed by staff from internal evals (policy CLI), mostly service-side.
+
+## Batch35 update (2026-10-22)
+Our #25273 (fix for #25259) MERGED 2026-10-18. Skipped #25235 (`policy group edit --add-stack` no-op) because staff have several open PRs rewriting policy pack/group commands (#25296 generated API types, #25297, #25333, #25334); the policy-CLI issues come from staff evals and are being handled in-house.
