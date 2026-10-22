@@ -24,3 +24,6 @@ PICKED #33399 (device `throttle` ignored because messageNonEmitted lastSeenChang
 
 ## Outcome
 PR #33423 (fix for #33399, base dev) merged by Koenkk on 2026-10-18, about 20 minutes after opening. Small focused fixes with tests land fast here.
+
+## Batch35 update (2026-10-22)
+PICKED #33464 (HA extension republishes `light_type` select as `{"light": ...}` on `<device>/type`, because `onPublishEntityState` matched object ids by `light_`/`cover_` prefix). Fix: only for discovery component `light`/`cover`. Claim: https://github.com/Koenkk/zigbee2mqtt/issues/33464#issuecomment-6344104640. PR: https://github.com/Koenkk/zigbee2mqtt/pull/33472 (base dev, 857 tests, 100% coverage, full CI matrix green). PRs to `dev` don't auto-link "Fixes #N" as closing references (non-default branch).
