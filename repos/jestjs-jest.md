@@ -21,3 +21,6 @@ yarn jest
 
 ## Decision
 SKIPPED: #16487 could not be reproduced by another user.
+
+## Batch37 update (2026-10-23 evening)
+- #16510, #16508 already had linked PRs. Skipped.
