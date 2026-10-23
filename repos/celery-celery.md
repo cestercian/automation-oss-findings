@@ -21,3 +21,6 @@ tox.
 
 ## Decision
 SKIPPED: recent open issues are feature requests.
+
+## Batch37 update (2026-10-23 evening)
+- #10913, #10912, #10929, #10910 all had linked PRs/claims. Skipped.
