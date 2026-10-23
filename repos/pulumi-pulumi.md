@@ -24,3 +24,6 @@ PICKED #25259 (single-member enums / `as const` objects in component args fail w
 
 ## Batch35 update (2026-10-22)
 Our #25273 (fix for #25259) MERGED 2026-10-18. Skipped #25235 (`policy group edit --add-stack` no-op) because staff have several open PRs rewriting policy pack/group commands (#25296 generated API types, #25297, #25333, #25334); the policy-CLI issues come from staff evals and are being handled in-house.
+
+## Batch36 update (2026-10-23)
+Skipped: staff-filed policy CLI issues (#25234-25237) handled in-house; #25215 reporter wants to fix it.

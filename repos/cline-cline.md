@@ -24,3 +24,6 @@ SKIPPED: no unclaimed, well-scoped bug.
 
 ## Batch32 update (2026-10-18)
 Batch32: open bugs are model/provider or desktop specific.
+
+## Batch36 update (2026-10-23)
+Skipped: all current bugs have PRs.

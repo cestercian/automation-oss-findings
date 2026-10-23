@@ -21,3 +21,6 @@ Comment on the issue.
 
 ## Decision
 PICKED #1803 (custom `from=` address lost in email URL round trips). Claim: https://github.com/caronc/apprise/issues/1803#issuecomment-6245522269. Full suite 3602 passed, ruff clean.
+
+## Batch36 update (2026-10-23)
+Skipped: only fresh bug #1828 (Pushover empty HTML) already has PR #1829 (theluckystrike). Nothing else free.

@@ -24,3 +24,6 @@ SKIPPED: open bugs need maintainer decisions or live in other repos.
 
 ## Batch32 update (2026-10-18)
 Batch32: open items are parity tasks for the hosted product.
+
+## Batch36 update (2026-10-23)
+Skipped: #18847 and #18728 have bot 'Decision needed' comments.

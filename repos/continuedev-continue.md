@@ -21,3 +21,6 @@ Continue CLA.
 
 ## Decision
 SKIPPED: #13363 has PR #13364.
+
+## Batch36 update (2026-10-23)
+Skipped: #13372 and #13383 have PRs.
