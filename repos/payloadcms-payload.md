@@ -8,3 +8,6 @@
 - Outside contributors do get merged (lazerg, SatvikMishra08, Metehan-Bicer, AmalMon19, toyeshhm).
 - Target: #19008 plugin-cloud-storage getFilePrefix find() drops isReadingStaticFile, so static-only read rules 500 without ?prefix= since 3.90.
 - Decision: OK to contribute.
+
+## Batch37 update (2026-10-23 evening)
+- Opened #19011 (fixes #19008), base main, verified commit d9f586e. Same bug on 3.x, offered backport in PR.
