@@ -21,3 +21,6 @@
 
 ## Decision
 SKIPPED: #6654 reporter already has a fix on a fork.
+
+## Batch37 update (2026-10-23 evening)
+- #6682 looked fine but only colinhacks merges PRs; low odds. Skipped.
