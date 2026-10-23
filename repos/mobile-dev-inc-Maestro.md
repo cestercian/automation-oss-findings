@@ -21,3 +21,6 @@ JDK 17. `./gradlew :maestro-cli:test` (the build rewrites maestro-cli/mcp-viewer
 
 ## Decision
 PICKED #3682 (flow name over 255 bytes aborts the run when creating the artifact dir). Claim: https://github.com/mobile-dev-inc/Maestro/issues/3682#issuecomment-6252594017. 4 new tests in TestDebugReporterTest; full maestro-cli test suite green. Also seen: #3659 (U+0000 in stripInvalidXMLChars), left for later.
+
+## Batch37 update (2026-10-23 evening)
+- PR #3693: maintainer Fishbowler pushed a simplifying commit on our branch (2026-10-23 ~6:33 PM IST). Replied thanks. Good sign, maintainer engaged.
