@@ -28,3 +28,6 @@ Batch32: #34310 is Dagster+ specific; rest feature requests.
 ## Batch36 update (2026-10-23)
 PICKED #27379 (dagster-user-deployments envSecrets optional: true dropped in includeConfigInLaunchedRuns: _helpers.tpl only forwards names into env_secrets). No CLA, no AI ban; contributing.md welcomes bugfixes. PR template: Summary & Motivation / Test Plan / Changelog. Must run `just ruff`; helm tests in helm/dagster/schema (pytest + helm binary). Claim: https://github.com/dagster-io/dagster/issues/27379#issuecomment-6359577836. Fork cestercian/dagster created this batch (CloudAgent needs the fork URL, upstream URL is not accessible).
 PR: https://github.com/dagster-io/dagster/pull/34341 (commit 75abf3c, verified). CloudAgent createPullRequest upstream fails with "Resource not accessible by integration" (it opened a same-repo PR on the fork instead, closed); open upstream PR from box with gh. CI gotcha: buildkite/unit-tests shows FAILURE on every external fork PR because the build sits in "blocked" until a maintainer unblocks it. Not a real failure. Greptile auto-reviews.
+
+## Batch37 update (2026-10-23 evening)
+- PR #34341: Greptile P1 (env source order) already fixed in fef71d3, replied in thread. Buildkite unit-tests shows FAILURE only because external-PR build is 'blocked' pending maintainer unblock (not a real failure).
