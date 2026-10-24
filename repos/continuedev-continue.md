@@ -28,3 +28,6 @@ Skipped: #13372 and #13383 have PRs.
 ## Update 2026-10-24 evening (batch39)
 - Opened #13418 (fixes #13417, OpenAI stream keeps deltas when usage on every chunk, Gemini compat). Verified commit 3eb7a95. CloudAgent launched on fork cestercian/continue (created this run); upstream PR opened via gh from box.
 - CLA Assistant check FAILS until Yash signs the Continue CLA (comment 'I have read the CLA Document and I hereby sign the CLA' on the PR). security/snyk fails with their private test quota (not us).
+
+## Update 2026-10-24 evening (batch39)
+- CI quirk: jetbrains-tests fails on every PR in the repo (even docs-only ones), so it's pre-existing. CLA is now signed (a cestercian CLA comment was posted 2026-10-24 15:39Z and CLA Assistant passes). Snyk fails on quota.
