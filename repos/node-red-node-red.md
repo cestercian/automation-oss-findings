@@ -24,3 +24,6 @@ PICKED #6010 (removeModule compared an array to 0, so modules used by others got
 
 ## Outcome
 PR #6017 opened 2026-10-18; EasyCLA check passed (CLA signed). Awaiting maintainer review.
+
+## Update 2026-10-24 evening (batch39)
+- #6014 (diff3 markers) is an AI-fished report; knolleary pushed back hard on AI-generated issues there. Avoid that reporter's issues. #6036 untriaged. Skipped.
