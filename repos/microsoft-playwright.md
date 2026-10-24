@@ -30,3 +30,6 @@ Batch32: no free bug-labeled issues.
 
 ## Update 2026-10-24 (batch38)
 - #43599 is a packaging feature request, not a bug. Skipped.
+
+## Update 2026-10-24 evening (batch39)
+- #43619 needs maintainer-approved issue before PRs; not approved. Skipped.
