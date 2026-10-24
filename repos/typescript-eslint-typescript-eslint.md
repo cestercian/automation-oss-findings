@@ -8,3 +8,6 @@ AI assistance allowed, no disclosure required; asks contributors not to post AI-
 
 ## Decision
 SKIPPED: #13088 reporter (JacobLey) already has a fix ready.
+
+## Update 2026-10-24 evening (batch39)
+- #13063 soft-claimed by Nacl-HCl. Skipped.
