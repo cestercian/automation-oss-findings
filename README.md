@@ -15,6 +15,9 @@ Notes are updated as I go, so some may be out of date.
 
 | Repo | Result | Batch | Note |
 |---|---|---|---|
+| [louislam/uptime-kuma](repos/louislam-uptime-kuma.md) | skipped | batch38 | SKIPPED: maintainer openly hostile to AI PRs. Hard skip. |
+| [omnigent-ai/omnigent](repos/omnigent-ai-omnigent.md) | skipped | batch38 | SKIPPED: #11233 is a design call, not a scoped fix. |
+| [typescript-eslint/typescript-eslint](repos/typescript-eslint-typescript-eslint.md) | skipped | batch38 | SKIPPED: #13088 reporter has a fix ready. AI allowed, needs `accepting prs` label. |
 | [BerriAI/litellm](repos/BerriAI-litellm.md) | picked | batch32 | PICKED #47273 (DATABASE_URL with password passed in prisma migrate diff argv) |
 | [caronc/apprise](repos/caronc-apprise.md) | picked | batch31 | PICKED #1803 (custom `from=` address lost in email URL round trips) |
 | [homebridge/homebridge](repos/homebridge-homebridge.md) | picked | batch31 | PICKED #4022 (Matter ColorControl commands fail when optional handlers are missing) |
@@ -95,7 +98,7 @@ Notes are updated as I go, so some may be out of date.
 | [letta-ai/letta](repos/letta-ai-letta.md) | skipped | batch32 | SKIPPED: nothing free. |
 | [locustio/locust](repos/locustio-locust.md) | skipped | batch32 | SKIPPED: no free bug issues in the window. |
 | [mastra-ai/mastra](repos/mastra-ai-mastra.md) | skipped | batch32 | SKIPPED: fresh bugs (#27479, #27466) still in needs-triage. |
-| [mermaid-js/mermaid](repos/mermaid-js-mermaid.md) | skipped | batch31 | SKIPPED: #7564 and #7047 already fixed; newer issues are triage/feature requests. |
+| [mermaid-js/mermaid](repos/mermaid-js-mermaid.md) | picked | batch38 | PICKED #8540/#8544/#8545 (entity placeholder leaking into pie/radar/venn error messages), PR #8549 |
 | [microsoft/autogen](repos/microsoft-autogen.md) | skipped | batch32 | SKIPPED: nothing free. |
 | [microsoft/playwright](repos/microsoft-playwright.md) | skipped | batch31 | SKIPPED: Android PRs closed; #43492 soft-claimed. |
 | [microsoft/playwright-mcp](repos/microsoft-playwright-mcp.md) | skipped | batch31 | SKIPPED: #1795 is a feature request (max sessions option) awaiting maintainer answer. |

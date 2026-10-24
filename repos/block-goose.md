@@ -27,3 +27,6 @@ Batch32: no free issues.
 
 ## Batch36 update (2026-10-23)
 Skipped: PRs must implement a 'Ready'-labeled issue and none are currently labeled; #13101 linked to PR #13099.
+
+## Update 2026-10-24 (batch38)
+- No Ready-labeled issues free; #13101 has PR #13099.

@@ -27,3 +27,6 @@ Batch32: no free bug-labeled issues.
 
 ## Batch35 update (2026-10-22)
 #43549 (ariaLabelledByElements ignored in accessible name) and #43508 (response.text() never settles) both have claim comments already.
+
+## Update 2026-10-24 (batch38)
+- #43599 is a packaging feature request, not a bug. Skipped.
