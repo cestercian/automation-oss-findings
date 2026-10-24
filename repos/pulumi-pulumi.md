@@ -27,3 +27,7 @@ Our #25273 (fix for #25259) MERGED 2026-10-18. Skipped #25235 (`policy group edi
 
 ## Batch36 update (2026-10-23)
 Skipped: staff-filed policy CLI issues (#25234-25237) handled in-house; #25215 reporter wants to fix it.
+
+## Update 2026-10-24 evening (batch39)
+- Opened #25381 (fixes #25358, Go programgen tuple of optional strings -> pulumi.Array, conformance test extended + snapshots regenerated, changie entry). Verified commit 77e0fca. CloudAgent could not create the upstream PR (Resource not accessible by integration); opened via gh from box. CI: maintainer-gated (/run-acceptance-tests), 3 checks pass.
+- CloudAgents cannot launch on pulumi/pulumi directly (repo not accessible to integration); launch on cestercian/pulumi fork and branch from upstream/master. Fork sync via API fails (workflow scope).
