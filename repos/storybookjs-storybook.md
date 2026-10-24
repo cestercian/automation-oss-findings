@@ -21,3 +21,6 @@ Node 22, `corepack yarn install --mode=skip-build --json` (the plain fancy outpu
 
 ## Decision
 PICKED #36858 (sidebar reads `state.disableWhatsNewNotifications` instead of `state.whatsNewData.disableWhatsNewNotifications`). Claim: https://github.com/storybookjs/storybook/issues/36858#issuecomment-6272686952. Also claimed #36873 (waitForAnimations on scroll timelines) first, then found it already fixed on `next` by #31900, so it was dropped; that claim comment is still up.
+
+## Update 2026-10-24 evening (batch39)
+- #36844 no reproduction yet; we already have #36899/#36858/#36848/#36855 open. Skipped.
