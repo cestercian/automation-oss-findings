@@ -27,3 +27,6 @@ Batch32: #59055 is about the website; #58990 claimed; #59153 Ractor related.
 
 ## Update 2026-10-24 (batch38)
 - #59215 has PRs #59216 and #59314. Ractor issues (#59173, #59153, #59152, #59168) owned by Kutomore/mhenrixon with PRs.
+
+## Update 2026-10-25 (midday run)
+- #59215 (filtered_path ignores dotted filter_parameters) skipped: reporter dhruv-techdev already has a PR up asking for review.
