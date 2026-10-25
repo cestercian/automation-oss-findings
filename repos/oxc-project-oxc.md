@@ -21,3 +21,6 @@ Comment on the issue.
 
 ## Decision
 PICKED #27964 (top-level `var exports` / `var require` renamed in CommonJS). Claim: https://github.com/oxc-project/oxc/issues/27964#issuecomment-6273014695.
+
+## Update 2026-10-25 (evening run)
+- CONTRIBUTING and AGENTS.md now require AI disclosure. That's a hard skip under our rules.

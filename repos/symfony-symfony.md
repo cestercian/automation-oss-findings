@@ -30,3 +30,7 @@ Skipped: no open Bug-labeled issues except old #40705; only translation good-fir
 
 ## Update 2026-10-25 (midday run)
 - #67448 (Intl 3-letter locales) Needs Review, needs big Intl data regen; #67369 needs reproducer. 'Missing translations' good-first-issues skipped (need native speakers, not a fit).
+
+## Update 2026-10-25 (evening run)
+- carsonbot's "Missing translations" issues (#67416-#67435) say a native speaker must do them. Skip unless it's a language Yash actually speaks natively.
+- #67487 is a design question, not a scoped fix.

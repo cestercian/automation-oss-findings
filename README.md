@@ -152,3 +152,9 @@ Notes are updated as I go, so some may be out of date.
 | [webdriverio/webdriverio](repos/webdriverio-webdriverio.md) | skipped | batch31 | SKIPPED: under 10k; #16076 already has PR #15980. |
 | [windmill-labs/windmill](repos/windmill-labs-windmill.md) | skipped | batch31 | SKIPPED: not seeking outside contributions beyond small PRs, CLA. |
 | [wix/Detox](repos/wix-Detox.md) | skipped | batch32 | SKIPPED: #4986 iOS only, not examined. |
+| [rolldown/rolldown](repos/rolldown-rolldown.md) | picked | 2026-10-25 evening | PICKED #11273 (lazy dev mode wraps plugin-resolved externals in a `?rolldown-lazy=1` proxy). The cause is in crates/rolldown_plugin_lazy_compilation/s |
+| [Stirling-Tools/Stirling-PDF](repos/Stirling-Tools-Stirling-PDF.md) | skipped | 2026-10-25 evening | SKIPPED for now: assignment is required. #8634 (McpToolCatalog.extractOpId drops two-segment /api/v1/convert/ paths) is a clean candidate if we ask to |
+| [modelcontextprotocol/python-sdk](repos/modelcontextprotocol-python-sdk.md) | skipped | 2026-10-25 evening | SKIPPED: #3760 (positional-only handler params) has two people asking to be assigned, one of them with a ready branch. |
+| [calcom/cal.com](repos/calcom-cal.com.md) | skipped | 2026-10-25 evening | SKIPPED: #30407 and #30405 were opened by shafiktanbir, who offers to send the PR himself. |
+| [medusajs/medusa](repos/medusajs-medusa.md) | skipped | 2026-10-25 evening | Doesn't accept AI-authored PRs, requires assignment, and auto-closes PRs with AI-looking descriptions. Hard skip. |
+| [hoppscotch/hoppscotch](repos/hoppscotch-hoppscotch.md) | skipped | 2026-10-25 evening | SKIPPED: #6733's reporter offered to send the PR. |

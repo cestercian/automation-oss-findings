@@ -24,3 +24,6 @@ SKIPPED: #15497 previous PR closed stale; no other free bugs.
 
 ## Batch36 update (2026-10-23)
 Skipped: #15630 has PR #15631, #15497 had two closed PRs, #14508 (license-checker swap) still 'we are considering' per OrKoN. Rest are old features. Google CLA (cestercian has merged google-gemini PRs, so CLA likely already signed).
+
+## Update 2026-10-25 (evening run)
+- Midday run opened #15664 (fixes #15661). Verified, CI green.

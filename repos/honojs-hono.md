@@ -21,3 +21,6 @@ pnpm + Bun, needs Node 22+ (pnpm fails on node 20). Run root `pnpm run build` be
 
 ## Decision
 SKIP for PRs. Check `gh api repos/<r> --jq .pull_request_creation_policy` before claiming on any repo.
+
+## Update 2026-10-25 (evening run)
+- Recent bugs already have fork fixes by other people.

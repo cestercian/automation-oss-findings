@@ -24,3 +24,6 @@ PICKED #26552 (`remove_after_secs` deletes files skipped by `ignore_older_secs` 
 
 ## Update 2026-10-25 (midday run)
 - #26814 (IPv6 literal sent as TLS SNI) skipped: reporter says they fixed it downstream and can send PRs. Our #26739 still open.
+
+## Update 2026-10-25 (evening run)
+- AI_POLICY.md asks substantially agent-generated PRs to name the model in the commit or PR body. That counts as a disclosure requirement, so skip vector for new PRs. Existing #26739 stays open.

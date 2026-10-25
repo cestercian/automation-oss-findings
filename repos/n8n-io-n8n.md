@@ -24,3 +24,6 @@ SKIPPED: bug issues are triaged and assigned to the team.
 
 ## Update 2026-10-24 (batch38)
 - #41893 (Execute Workflow drops saved input mapping) claimed by lakshya-dhariwal; #41541 claimed by crimsondhaks. Fresh bugs get claimed within minutes.
+
+## Update 2026-10-25 (evening run)
+- New bugs get team-assigned.

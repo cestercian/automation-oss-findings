@@ -21,3 +21,6 @@ make test
 
 ## Decision
 SKIPPED: #40918 claimed (reporter has a fix waiting for assignment, plus another claimant).
+
+## Update 2026-10-25 (evening run)
+- Assignment gating.

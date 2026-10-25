@@ -21,3 +21,6 @@ npm run preflight.
 
 ## Decision
 SKIPPED: all 9 unassigned help-wanted issues already have PRs or claims.
+
+## Update 2026-10-25 (evening run)
+- Nothing unclaimed.

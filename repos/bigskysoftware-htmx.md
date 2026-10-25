@@ -30,3 +30,6 @@ SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
 
 ## Update 2026-10-24 evening (batch39)
 - #4161/#4160 are feature discussions, #4151 still pushback. Skipped.
+
+## Update 2026-10-25 (evening run)
+- Midday run opened #4163 (fixes #4162). Verified, CI green.

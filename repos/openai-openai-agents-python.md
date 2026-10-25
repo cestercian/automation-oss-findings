@@ -21,3 +21,6 @@ make tests
 
 ## Decision
 SKIPPED: #5386/#5382/#5342 each have several claimants and fork fixes.
+
+## Update 2026-10-25 (evening run)
+- #5409 is a docs question.

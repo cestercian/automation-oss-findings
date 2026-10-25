@@ -24,3 +24,6 @@ SKIPPED: the `external` issues (#9304, #9218, #9266) all have multiple claimants
 
 ## Batch35 update (2026-10-22)
 #9327 (callable-class router Literal hint ignored) already has two people with fixes ready (yang0228, reporter Siddharth-DWT). Still crowded.
+
+## Update 2026-10-25 (evening run)
+- Requires assignment before a PR.

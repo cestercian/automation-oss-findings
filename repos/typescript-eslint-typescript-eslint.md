@@ -14,3 +14,6 @@ SKIPPED: #13088 reporter (JacobLey) already has a fix ready.
 
 ## Update 2026-10-25 (midday run)
 - 'accepting prs' backlog checked: #12308 has PR #12317, #12271 has PR #12272, #10746 is a deep scope-manager issue (bradzacher notes complex cases), #13063 soft-claimed, #13036 blocked on ts-api-utils. Nothing clean this run.
+
+## Update 2026-10-25 (evening run)
+- An agentscan-style bot runs on issues (same family as vitest). Skip.

@@ -21,3 +21,6 @@ No disclosure rule found.
 
 ## Decision
 SKIPPED: unsolicited PRs are paused.
+
+## Update 2026-10-25 (evening run)
+- #16850 is being fixed by its reporter.

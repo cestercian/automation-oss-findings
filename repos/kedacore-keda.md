@@ -21,3 +21,6 @@ make test, golangci-lint.
 
 ## Decision
 SKIP for batches unless an issue is already assigned to cestercian (assignment wait doesn't fit a batch).
+
+## Update 2026-10-25 (evening run)
+- Nothing unclaimed.

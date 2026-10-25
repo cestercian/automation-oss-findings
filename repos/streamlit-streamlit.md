@@ -21,3 +21,6 @@ Many AGENTS.md.
 
 ## Decision
 SKIPPED: #17522 claimed with a fix.
+
+## Update 2026-10-25 (evening run)
+- Outside PRs are paused. Skip.

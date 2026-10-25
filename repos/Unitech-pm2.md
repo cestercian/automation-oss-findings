@@ -27,3 +27,6 @@ Batch32: #6171 is a complex watch-restart race ("Callback was already called").
 
 ## Update 2026-10-24 (batch38)
 - #6173 (pidusage) already fixed on master: package.json pins pidusage 4.1.0. Nothing to do.
+
+## Update 2026-10-25 (evening run)
+- Midday run opened #6177 (fixes #6176). CLA check passed, verified, CI green.

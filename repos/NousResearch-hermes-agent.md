@@ -21,3 +21,8 @@ pytest.
 
 ## Decision
 SKIPPED: PR creation reported restricted for outside accounts; per-author PR caps.
+
+## Update 2026-10-25 (evening run)
+- The earlier skip turned out wrong: outside PRs do go through (cestercian already has #133584, #123116, #123108 open). There's no AI disclosure rule, and AGENTS.md is agent-friendly.
+- Picked #144518 (the TUI config health probe warns about every top-level null key, including `max_concurrent_sessions: null`, which is a documented default). Claim: https://github.com/NousResearch/hermes-agent/issues/144518#issuecomment-6399484903
+- Gotchas: `python scripts/check` is a code-health ratchet that blocks in CI. It sets complexity/size caps per function and file, and files over 2000 lines can't grow, so put new tests in a new test file. CloudAgent can't launch on the upstream repo ("not accessible"), so launch on the cestercian fork and branch from upstream/main.
