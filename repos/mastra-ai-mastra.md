@@ -21,3 +21,6 @@ pnpm test
 
 ## Decision
 SKIPPED: fresh bugs (#27479, #27466) still in needs-triage.
+
+## Update 2026-10-25 (midday run)
+- SKIP: pull_request_creation_policy collaborators_only; bugs also gated behind 'needs triage' label (#28331, #28372, #28371).
