@@ -21,3 +21,6 @@ Comment on the issue.
 
 ## Decision
 PICKED #26552 (`remove_after_secs` deletes files skipped by `ignore_older_secs` without reading them). Claim: https://github.com/vectordotdev/vector/issues/26552#issuecomment-6273181122. Also seen: #26644, #26565, #26564 (sink retry / disk buffer).
+
+## Update 2026-10-25 (midday run)
+- #26814 (IPv6 literal sent as TLS SNI) skipped: reporter says they fixed it downstream and can send PRs. Our #26739 still open.
