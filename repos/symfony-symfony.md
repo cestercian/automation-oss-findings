@@ -27,3 +27,6 @@ Skipped: no open Bug-labeled issues except old #40705; only translation good-fir
 
 ## Batch37 update (2026-10-23 evening)
 - Looked at #67369 (cache checkpoint time=now / index -1 when state missing). Cold start behaves the same, labeled Needs Review, design debatable. Skipped.
+
+## Update 2026-10-25 (midday run)
+- #67448 (Intl 3-letter locales) Needs Review, needs big Intl data regen; #67369 needs reproducer. 'Missing translations' good-first-issues skipped (need native speakers, not a fit).
