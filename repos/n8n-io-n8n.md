@@ -27,3 +27,6 @@ SKIPPED: bug issues are triaged and assigned to the team.
 
 ## Update 2026-10-25 (evening run)
 - New bugs get team-assigned.
+
+## Update 2026-10-26 (evening run)
+- Not picked. PRs need an issue the team has accepted, and AI-use disclosure is encouraged, so look for issues labelled as accepted first.

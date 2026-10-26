@@ -27,3 +27,6 @@ Batch32: no free bugs.
 
 ## Batch36 update (2026-10-23)
 Skipped: every recent bug already has a PR within hours (Devin swarm: #23529, #23492, #23491, #23504, #23463, #23525). Not worth checking again soon.
+
+## Update 2026-10-26 (evening run)
+- Skipped #23492, #23504, #23525: each already has open PRs, and they get claimed within hours.

@@ -31,3 +31,6 @@ Skipped: staff-filed policy CLI issues (#25234-25237) handled in-house; #25215 r
 ## Update 2026-10-24 evening (batch39)
 - Opened #25381 (fixes #25358, Go programgen tuple of optional strings -> pulumi.Array, conformance test extended + snapshots regenerated, changie entry). Verified commit 77e0fca. CloudAgent could not create the upstream PR (Resource not accessible by integration); opened via gh from box. CI: maintainer-gated (/run-acceptance-tests), 3 checks pass.
 - CloudAgents cannot launch on pulumi/pulumi directly (repo not accessible to integration); launch on cestercian/pulumi fork and branch from upstream/master. Fork sync via API fails (workflow scope).
+
+## Update 2026-10-26 (evening run)
+- #25381: iwahbe said the first version regressed the #25387 case (an optional list output must stay Float64ArrayArray). Narrowed the pulumi.Array fallback to optional string/number/int/bool, rebased onto master, and replied. The l2-primitive-ref-optional conformance tests pass for go, node and python.

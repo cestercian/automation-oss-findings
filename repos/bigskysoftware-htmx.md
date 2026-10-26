@@ -33,3 +33,7 @@ SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
 
 ## Update 2026-10-25 (evening run)
 - Midday run opened #4163 (fixes #4162). Verified, CI green.
+
+## Update 2026-10-26 (evening run)
+- Opened #4165 (fixes #4164) against four-dev: swap() ran the history update before htmx:before:swap, so a cancelled swap still changed the URL. htmx 4 work targets four-dev, and the fork four-dev is stale, so branch from upstream.
+- npm test (web-test-runner) passes: 1804 passed, 4 skipped.
