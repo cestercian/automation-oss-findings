@@ -27,3 +27,6 @@ PR #6017 opened 2026-10-18; EasyCLA check passed (CLA signed). Awaiting maintain
 
 ## Update 2026-10-24 evening (batch39)
 - #6014 (diff3 markers) is an AI-fished report; knolleary pushed back hard on AI-generated issues there. Avoid that reporter's issues. #6036 untriaged. Skipped.
+
+## Update 2026-10-27 (midday run)
+- #6031, #6007, #6013/#6012, #6008 all have outside PRs already. #6036 (projects history refresh) free but UI/git heavy and hard to test.
