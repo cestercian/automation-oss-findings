@@ -30,3 +30,6 @@ Skipped: every recent bug already has a PR within hours (Devin swarm: #23529, #2
 
 ## Update 2026-10-26 (evening run)
 - Skipped #23492, #23504, #23525: each already has open PRs, and they get claimed within hours.
+
+## Update 2026-10-27 (midday run)
+- #23592 and #23589 (Oct 26) already have Devin PRs #23594 / #23590 within hours. Still swarmed.
