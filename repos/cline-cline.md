@@ -36,3 +36,6 @@ Skipped: all current bugs have PRs.
 
 ## Update 2026-10-25 (evening run)
 - #15323 already has open PR #14996.
+
+## Update 2026-10-27 (evening run)
+- #15377 already has PR #15378. Skipped.
