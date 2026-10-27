@@ -30,3 +30,6 @@ Skipped: #18847 and #18728 have bot 'Decision needed' comments.
 
 ## Update 2026-10-24 (batch38)
 - #18883 is ready-for-dev but cloud-specific and needs e2e evidence; merges are almost all team. #18888's fix belongs in software-agent-sdk. Skipped.
+
+## Update 2026-10-27 (evening run)
+- #18953 and #18952 already claimed by others. Skipped.
