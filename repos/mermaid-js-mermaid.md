@@ -30,3 +30,6 @@ SKIPPED: #7564 and #7047 already fixed; newer issues are triage/feature requests
 
 ## Update 2026-10-24 evening (batch39)
 - #8549: addressed CodeRabbit decode comment (placeholder-only decode was already in 3e50ce18e; added mixed-label tests in 39d5f59, verified). Replied on the thread. e2e-required still the 'run pr tests' label gate.
+
+## Update 2026-10-27 (midday run)
+- The fresh Triage batch (#8535-#8574, mostly one reporter) all got PRs from others within a day (#8576, #8577, #8559-#8564, #8578...). Nothing free.
