@@ -27,3 +27,6 @@ CONTRIBUTING has an "AI-assisted contributions" section: AI is welcome, no discl
 
 ## Update 2026-10-25 (evening run)
 - Recent issues already have PRs.
+
+## Update 2026-10-27 (evening run)
+- #10186: reporter already has a fix in progress. Skipped.
