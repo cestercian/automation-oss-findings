@@ -24,3 +24,6 @@ SKIPPED: unsolicited PRs are paused.
 
 ## Update 2026-10-25 (evening run)
 - #16850 is being fixed by its reporter.
+
+## Update 2026-10-27 (midday run)
+- SKIP for now: a github-actions bot closes outside PRs with 'temporarily paused unsolicited pull requests from outside the core team' (seen on #16863). CLA assistant too. Don't open PRs until that's lifted.
