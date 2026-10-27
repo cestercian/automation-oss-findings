@@ -26,3 +26,6 @@ SKIPPED: PR creation reported restricted for outside accounts; per-author PR cap
 - The earlier skip turned out wrong: outside PRs do go through (cestercian already has #133584, #123116, #123108 open). There's no AI disclosure rule, and AGENTS.md is agent-friendly.
 - Picked #144518 (the TUI config health probe warns about every top-level null key, including `max_concurrent_sessions: null`, which is a documented default). Claim: https://github.com/NousResearch/hermes-agent/issues/144518#issuecomment-6399484903
 - Gotchas: `python scripts/check` is a code-health ratchet that blocks in CI. It sets complexity/size caps per function and file, and files over 2000 lines can't grow, so put new tests in a new test file. CloudAgent can't launch on the upstream repo ("not accessible"), so launch on the cestercian fork and branch from upstream/main.
+
+## Update 2026-10-27 (midday run)
+- #145412 (standalone Telegram send ignores HERMES_TELEGRAM_HTTP_*) already has several older PRs (#63116, #77315, #125409). #145387 tracked by maintainer in #134889. Search PRs by keyword, not just issue number, since hermes PRs rarely link issues.
