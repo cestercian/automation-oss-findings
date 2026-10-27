@@ -31,3 +31,6 @@ Skipped: #15630 has PR #15631, #15497 had two closed PRs, #14508 (license-checke
 ## Update 2026-10-26 (evening run)
 - #15664: Lightning00Blade asked for structuredClone and for the feature flag test to be split. Done in ae177bd and replied.
 - Some CI shards failed with ERR_MODULE_NOT_FOUND for node_modules/puppeteer/lib (build artifact missing, an infra issue unrelated to the diff).
+
+## Update 2026-10-27 (midday run)
+- #15656 (firefox version comparator) has PRs #15658 + #15681; #15655 (Shift L/R modifier) has #15657. Open confirmed issues are old features.
