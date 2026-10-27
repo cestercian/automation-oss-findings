@@ -29,3 +29,6 @@ SKIPPED: PR creation reported restricted for outside accounts; per-author PR cap
 
 ## Update 2026-10-27 (midday run)
 - #145412 (standalone Telegram send ignores HERMES_TELEGRAM_HTTP_*) already has several older PRs (#63116, #77315, #125409). #145387 tracked by maintainer in #134889. Search PRs by keyword, not just issue number, since hermes PRs rarely link issues.
+
+## Update 2026-10-27 (evening run)
+- #145530 and #145564 are tracked in-house under #134889. Skipped.
