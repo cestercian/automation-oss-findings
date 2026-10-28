@@ -30,3 +30,7 @@ PR #6017 opened 2026-10-18; EasyCLA check passed (CLA signed). Awaiting maintain
 
 ## Update 2026-10-27 (midday run)
 - #6031, #6007, #6013/#6012, #6008 all have outside PRs already. #6036 (projects history refresh) free but UI/git heavy and hard to test.
+
+## Update 2026-10-28 (midday run)
+- #5962 (MQTT overlapping subscriptions duplicate messages): hardillb says working as designed; only docs PRs welcome.
+- #5981 (401 vs 403 for read-only users): knolleary flagged it as a duplicate of #5974.
