@@ -21,3 +21,7 @@ Python 3.11 venv with `requirements/static/ci/py3.11/linux.lock`, then `pytest -
 
 ## Decision
 PICKED #70393 (after a zmq_monitor reconnect, __master_alive runs every second and the disconnect deletes the wrong job name). Based on 3007.x (3006.x defaults zmq_monitor off). Claim: https://github.com/saltstack/salt/issues/70393#issuecomment-6252757653. Most merges come from staff (dwoz, twangboy) but outside PRs do land. Also seen: #70396 (behavior change, not picked).
+
+## Update 2026-10-28 (midday run)
+- CI quirk: the Pre-Commit job runs black 24.2.0 (pinned in .pre-commit-config.yaml) and fails the whole CI on formatting in test files. Run `black==24.2.0` on changed files before pushing.
+- #70436: pushed c6556a04 "Run black on the master_alive minion tests" (verified; black 24.2.0 --check passes locally). CI did not auto-start on the new head; salt CI on fork PRs seems to start only after maintainer action (dwoz's force-push/label kicked off the last run).
