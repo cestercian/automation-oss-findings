@@ -11,3 +11,6 @@
 
 ## Batch37 update (2026-10-23 evening)
 - Opened #19011 (fixes #19008), base main, verified commit d9f586e. Same bug on 3.x, offered backport in PR.
+
+## Update 2026-10-28 (evening run)
+- Opened https://github.com/payloadcms/payload/pull/19144 (fixes #19140, streamed CSV header only covered first batch; regression from the download rewrite #14782 dropping #13009 pre-scan). Int tests need Localstack/Mongo, so only unit tests ran in the VM. We now have 3 open payload PRs (#19011, #19113, #19144); hold off on more here.

@@ -34,3 +34,6 @@ Skipped: #12652, #12647, #12611, #12625, #12506, #12493 all have PRs.
 
 ## Update 2026-10-27 (midday run)
 - #12746 has PR #12749. #12722 (dynamic config callback ordering): maintainer dnr is still discussing the design (sharded queues vs generation counter); not a scoped fix yet.
+
+## Update 2026-10-28 (evening run)
+- #12783/#12784 belong to maintainer stephanos's internal lock-assertion work; #12784 claimed by BBtacker. Nothing taken.

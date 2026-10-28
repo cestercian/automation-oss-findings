@@ -158,3 +158,7 @@ Notes are updated as I go, so some may be out of date.
 | [calcom/cal.com](repos/calcom-cal.com.md) | skipped | 2026-10-25 evening | SKIPPED: #30407 and #30405 were opened by shafiktanbir, who offers to send the PR himself. |
 | [medusajs/medusa](repos/medusajs-medusa.md) | skipped | 2026-10-25 evening | Doesn't accept AI-authored PRs, requires assignment, and auto-closes PRs with AI-looking descriptions. Hard skip. |
 | [hoppscotch/hoppscotch](repos/hoppscotch-hoppscotch.md) | skipped | 2026-10-25 evening | SKIPPED: #6733's reporter offered to send the PR. |
+| [mozilla/pdf.js](repos/mozilla-pdf.js.md) | PR open | 2026-10-28 evening | #22362 fixes #22341 (null edit toolbar when an editor is deleted mid-build). |
+| [vectordotdev/vector](repos/vectordotdev-vector.md) | skipped | 2026-10-28 evening | AI_POLICY requires naming the model used, which is AI disclosure. Skip. |
+| [oxc-project/oxc](repos/oxc-project-oxc.md) | skipped | 2026-10-28 evening | CONTRIBUTING now requires AI disclosure. Skip. |
+| [drizzle-team/drizzle-orm](repos/drizzle-team-drizzle-orm.md) | skipped | 2026-10-28 evening | PR creation is collaborators_only. Skip. |

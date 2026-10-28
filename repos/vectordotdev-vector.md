@@ -27,3 +27,6 @@ PICKED #26552 (`remove_after_secs` deletes files skipped by `ignore_older_secs` 
 
 ## Update 2026-10-25 (evening run)
 - AI_POLICY.md asks substantially agent-generated PRs to name the model in the commit or PR body. That counts as a disclosure requirement, so skip vector for new PRs. Existing #26739 stays open.
+
+## Update 2026-10-28 (evening run)
+- Re-checked: AI_POLICY requires naming the model/tool used in the PR, which amounts to AI disclosure. Skip.

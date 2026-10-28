@@ -21,3 +21,6 @@ Huge monorepo; use a sparse clone of server/public for the shared/markdown packa
 
 ## Decision
 OK TARGET for small server/public fixes, but expect the CLA step.
+
+## Update 2026-10-28 (evening run)
+- #39099 already claimed by tejaschavan724. Nothing else free and well scoped.

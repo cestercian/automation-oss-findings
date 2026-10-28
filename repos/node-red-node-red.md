@@ -34,3 +34,6 @@ PR #6017 opened 2026-10-18; EasyCLA check passed (CLA signed). Awaiting maintain
 ## Update 2026-10-28 (midday run)
 - #5962 (MQTT overlapping subscriptions duplicate messages): hardillb says working as designed; only docs PRs welcome.
 - #5981 (401 vs 403 for read-only users): knolleary flagged it as a duplicate of #5974.
+
+## Update 2026-10-28 (evening run)
+- #6011/#6036: knolleary is openly hostile to AI-written issues (#6036 itself says Claude wrote it). Avoid.

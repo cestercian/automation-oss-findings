@@ -24,3 +24,6 @@ PICKED #27964 (top-level `var exports` / `var require` renamed in CommonJS). Cla
 
 ## Update 2026-10-25 (evening run)
 - CONTRIBUTING and AGENTS.md now require AI disclosure. That's a hard skip under our rules.
+
+## Update 2026-10-28 (evening run)
+- CONTRIBUTING now requires AI-use disclosure on PRs. Skip.

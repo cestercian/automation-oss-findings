@@ -24,3 +24,6 @@ PICKED #36858 (sidebar reads `state.disableWhatsNewNotifications` instead of `st
 
 ## Update 2026-10-24 evening (batch39)
 - #36844 no reproduction yet; we already have #36899/#36858/#36848/#36855 open. Skipped.
+
+## Update 2026-10-28 (evening run)
+- Our open PR #36887 got the label agent-scan:automated (storybook runs an automated-account scanner). #36844 has no repro. Treat storybook as risky for new PRs.
