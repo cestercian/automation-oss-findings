@@ -31,3 +31,7 @@ PR: https://github.com/dagster-io/dagster/pull/34341 (commit 75abf3c, verified).
 
 ## Batch37 update (2026-10-23 evening)
 - PR #34341: Greptile P1 (env source order) already fixed in fef71d3, replied in thread. Buildkite unit-tests shows FAILURE only because external-PR build is 'blocked' pending maintainer unblock (not a real failure).
+
+## Update 2026-10-28 (midday run)
+- CI quirk: the Buildkite `unit-tests` build on outside PRs (#34359, build #3864) sits in `blocked` state with steps waiting for input until a maintainer unblocks it. That is not a failure on our side; don't push just to "fix" it.
+- Greptile reviews every push; address P1s in a follow-up commit and reply once per thread.
