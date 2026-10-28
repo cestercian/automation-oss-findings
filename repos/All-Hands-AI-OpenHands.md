@@ -33,3 +33,7 @@ Skipped: #18847 and #18728 have bot 'Decision needed' comments.
 
 ## Update 2026-10-27 (evening run)
 - #18953 and #18952 already claimed by others. Skipped.
+
+## Update 2026-10-28 (midday run)
+- HARD SKIP: AGENTS.md and the PR template require a `HUMAN:` section written only by the human contributor plus an `AGENT:` section for AI agents, and video/screenshot evidence of the running app. That is an AI-disclosure requirement.
+- Issues are labeled `ready-for-dev`; #18953 was already claimed with a PR.
