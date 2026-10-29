@@ -17,3 +17,6 @@
 
 ## Update 2026-10-29 (midday run)
 - #19144: handled CodeRabbit review with signed commit bada708 (raw columns captured before exportHooks.before, new test, shortDoc takes an object param). Declined CSV formula escaping in a reply because it's pre-existing behavior and would change import round trips; offered to do it separately. Main CI is still waiting on maintainer workflow approval.
+
+## Update 2026-10-29 (evening run)
+- #19144: replied to the CodeRabbit outside-diff Minor note (merge first-batch keys before padding) without a code change: the pre-scan vs stream race can hit any page and the CSV header can't widen later. Offered to change it if a maintainer prefers. https://github.com/payloadcms/payload/pull/19144#issuecomment-6500325501

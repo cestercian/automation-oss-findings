@@ -35,3 +35,6 @@ PR: https://github.com/dagster-io/dagster/pull/34341 (commit 75abf3c, verified).
 ## Update 2026-10-28 (midday run)
 - CI quirk: the Buildkite `unit-tests` build on outside PRs (#34359, build #3864) sits in `blocked` state with steps waiting for input until a maintainer unblocks it. That is not a failure on our side; don't push just to "fix" it.
 - Greptile reviews every push; address P1s in a follow-up commit and reply once per thread.
+
+## Update 2026-10-29 (evening run)
+- #34356 (dbt Fusion runs `dbt list` every load) is design-heavy. #34338 gRPC DecodeError is intermittent with no repro. Our #34359 Buildkite unit-tests still blocked waiting for a maintainer unblock.

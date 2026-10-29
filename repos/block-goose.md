@@ -39,3 +39,6 @@ Skipped: PRs must implement a 'Ready'-labeled issue and none are currently label
 
 ## Update 2026-10-26 (evening run)
 - Still skip. PRs are accepted only for issues marked Ready on the project board, and the gh token cannot read project status (no read:project scope). #13134 and #13137 are new and in Inbox.
+
+## Update 2026-10-29 (evening run)
+- Still gated: PRs need a Ready-labeled issue. Nothing fresh qualifies.

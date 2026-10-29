@@ -34,3 +34,6 @@ Skipped: staff-filed policy CLI issues (#25234-25237) handled in-house; #25215 r
 
 ## Update 2026-10-26 (evening run)
 - #25381: iwahbe said the first version regressed the #25387 case (an optional list output must stay Float64ArrayArray). Narrowed the pulumi.Array fallback to optional string/number/int/bool, rebased onto master, and replied. The l2-primitive-ref-optional conformance tests pass for go, node and python.
+
+## Update 2026-10-29 (evening run)
+- #25357 (Go program-gen, `for` over a tuple of outputs emits undefined `_arg0_`; filed by iwahbe): RewriteApplies wraps the for in an apply, then the for spiller hoists it out of the apply callback. Good next pick, but our open #25408 (no reviews yet) also edits gen_program_for.go, so wait for it to land to avoid conflicts.

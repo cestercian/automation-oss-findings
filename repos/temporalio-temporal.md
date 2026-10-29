@@ -37,3 +37,6 @@ Skipped: #12652, #12647, #12611, #12625, #12506, #12493 all have PRs.
 
 ## Update 2026-10-28 (evening run)
 - #12783/#12784 belong to maintainer stephanos's internal lock-assertion work; #12784 claimed by BBtacker. Nothing taken.
+
+## Update 2026-10-29 (evening run)
+- #12792 (single-node ring after a DB outage) has a contributor asking to take it; #12782/#12784 are maintainer lock work. Nothing taken.

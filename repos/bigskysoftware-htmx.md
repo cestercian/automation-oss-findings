@@ -40,3 +40,6 @@ SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
 
 ## Update 2026-10-29 (midday run)
 - #4164 and #4162 are covered by our own open PRs (#4163, #4165). Don't add more until those land.
+
+## Update 2026-10-29 (evening run)
+- #4173 skipped: still a design question and our notes say hold off until #4163/#4165 land.

@@ -33,3 +33,6 @@ Skipped: every recent bug already has a PR within hours (Devin swarm: #23529, #2
 
 ## Update 2026-10-27 (midday run)
 - #23592 and #23589 (Oct 26) already have Devin PRs #23594 / #23590 within hours. Still swarmed.
+
+## Update 2026-10-29 (evening run)
+- #23629 already has PR #23630. #23522 is vague V2 UI feedback.

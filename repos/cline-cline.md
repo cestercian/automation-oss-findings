@@ -39,3 +39,5 @@ Skipped: all current bugs have PRs.
 
 ## Update 2026-10-27 (evening run)
 - #15377 already has PR #15378. Skipped.
+## Update 2026-10-29 (evening run)
+- Still gated: PRs need an approved issue. Nothing taken.

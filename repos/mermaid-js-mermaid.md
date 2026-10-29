@@ -33,3 +33,8 @@ SKIPPED: #7564 and #7047 already fixed; newer issues are triage/feature requests
 
 ## Update 2026-10-27 (midday run)
 - The fresh Triage batch (#8535-#8574, mostly one reporter) all got PRs from others within a day (#8576, #8577, #8559-#8564, #8578...). Nothing free.
+
+## Update 2026-10-29 (evening run)
+- PICKED #8608 (flowchart HTML labels only wrap when the measured width is exactly `wrappingWidth`; sub-pixel or overflowing widths stay nowrap). Claim: https://github.com/mermaid-js/mermaid/issues/8608#issuecomment-6500574474. PR: https://github.com/mermaid-js/mermaid/pull/8609 (0.5px tolerance in addHtmlSpan + 5 unit tests + changeset). Commit c852008c verified.
+- #8574 already has PR #8577.
+- Tooling: needs Node 22.12+ (box has 20; Node 24 tarball in /tmp/node24 with COREPACK_HOME=/tmp/corepack). Fork develop is stale and can't be synced (workflow scope), so the agent branches from upstream/develop. CloudAgent couldn't open the upstream PR; opened via gh from the box.

@@ -27,3 +27,6 @@ Skipped: only fresh bug #1828 (Pushover empty HTML) already has PR #1829 (theluc
 
 ## Update 2026-10-28 (evening run)
 - #1840 (AppriseTag hash/eq mismatch, filed today) looks design-ambiguous; reserve candidate, not taken.
+
+## Update 2026-10-29 (evening run)
+- #1841 already has PR #1842.

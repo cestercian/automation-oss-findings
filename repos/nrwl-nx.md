@@ -27,3 +27,6 @@ Earlier PR #37471 (fix for #37468) MERGED 2026-10-18. PICKED #37427 (`nx release
 Test notes: release tests now run with vitest (`pnpm exec vitest run src/command-line/release/release.spec.ts` in packages/nx). `utils/shared.spec.ts` fails without the native binding (`locateTouchedProjects is not a function`) when installed with `--ignore-scripts`; unrelated. Typecheck: `pnpm exec tsgo -p packages/nx/tsconfig.lib.json --noEmit` (`nx run nx:typecheck` needs dotnet for the project graph). Formatter: oxfmt.
 Skipped #37506 (run exits 130 when tasks are skipped): reporter carries a local patch and offered to open a PR.
 Upstream PR creation from the cloud agent app token 403s ("Resource not accessible by integration"); Cursor still auto-opened the PR, but with its own body, so fix the body to the template + `Fixes #N` afterwards.
+
+## Update 2026-10-29 (evening run)
+- #37678 (ng-packagr-lite picks the wrong entry point with parallel ng-packagr 22) is already fixed on master (write-bundles.transform uses getActiveEntryPoint when available).

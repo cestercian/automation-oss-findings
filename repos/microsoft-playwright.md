@@ -36,3 +36,6 @@ Batch32: no free bug-labeled issues.
 
 ## Update 2026-10-25 (midday run)
 - Rule: CONTRIBUTING requires the issue be assigned to you or approved for community contribution before any PR; unsolicited/low-quality agentic PRs closed. #43634 (isDisabled on disabled option inside label) is fresh and unassigned, so skipped for now.
+
+## Update 2026-10-29 (evening run)
+- #43715 and #43760 (expect.extend generic matchers lose T; bot reproduced) still need a maintainer approval/assignment before a PR. WebKit bugs (#43765, #43766) are browser-side.
