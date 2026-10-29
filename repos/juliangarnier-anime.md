@@ -21,3 +21,6 @@ No ban found.
 
 ## Decision
 SKIPPED: only a docs-site issue open.
+
+## Update 2026-10-29 (midday run)
+- #1193 is ours already, and #1192 is taken.

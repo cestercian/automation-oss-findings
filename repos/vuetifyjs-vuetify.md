@@ -35,3 +35,6 @@ Batch32: #23268 a11y contrast not examined; #23248 disputed.
 
 ## Update 2026-10-28 (evening run)
 - #23326: J-Sek asked if the move could be eliminated; our follow-up b0e753ef broke VSelect.spec.browser "no-auto-scroll on click" (expected 48 to be 0). Fixed in 6e7b1d8a (only shift scroll when rows land above the anchor), CI green. Lesson: run the VSelect browser specs too when touching VVirtualScroll.
+
+## Update 2026-10-29 (midday run)
+- #21503 is already fixed, and KaelWD called #21134 non-trivial. #20826 (VSelect autofocus with menu=true) could be a future pick but needs a v4 repro check first.

@@ -14,3 +14,6 @@
 
 ## Update 2026-10-28 (evening run)
 - Opened https://github.com/payloadcms/payload/pull/19144 (fixes #19140, streamed CSV header only covered first batch; regression from the download rewrite #14782 dropping #13009 pre-scan). Int tests need Localstack/Mongo, so only unit tests ran in the VM. We now have 3 open payload PRs (#19011, #19113, #19144); hold off on more here.
+
+## Update 2026-10-29 (midday run)
+- #19144: handled CodeRabbit review with signed commit bada708 (raw columns captured before exportHooks.before, new test, shortDoc takes an object param). Declined CSV formula escaping in a reply because it's pre-existing behavior and would change import round trips; offered to do it separately. Main CI is still waiting on maintainer workflow approval.

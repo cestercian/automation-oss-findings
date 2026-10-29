@@ -10,3 +10,6 @@
 - Tests/CI: `npx gulp lint` (needs NODE_OPTIONS=--max-old-space-size=4096 on small VMs), `npx gulp unittestcli`, integration via `TESTING=true` build then `INTEGRATION_FILTER=... INTEGRATION_SPECS=freetext_editor_spec.mjs node test/test.mjs --integration --noDownload --headless --noFirefox`.
 - Commit/PR title style: plain imperative sentence, often with "(issue N)" suffix, no conventional prefix.
 - Decision: good target for small, well-diagnosed editor bugs.
+
+## Update 2026-10-29 (midday run)
+- Picked #22271 (FreeText clone shifted up by its font size) and posted a claim. Many open pdf.js issues already have linked PRs: #22370, #22366, #22310, #22272, #22270, #22183, #22129, #22209.

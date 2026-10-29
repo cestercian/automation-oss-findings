@@ -25,3 +25,6 @@ PICKED #70393 (after a zmq_monitor reconnect, __master_alive runs every second a
 ## Update 2026-10-28 (midday run)
 - CI quirk: the Pre-Commit job runs black 24.2.0 (pinned in .pre-commit-config.yaml) and fails the whole CI on formatting in test files. Run `black==24.2.0` on changed files before pushing.
 - #70436: pushed c6556a04 "Run black on the master_alive minion tests" (verified; black 24.2.0 --check passes locally). CI did not auto-start on the new head; salt CI on fork PRs seems to start only after maintainer action (dwoz's force-push/label kicked off the last run).
+
+## Update 2026-10-29 (midday run)
+- #70436: rebased onto 3008.x (base 3be18797ec) with one trivial EOF conflict in the test file. New head 77087bce is verified and the PR is mergeable again. The 5 master_alive tests pass locally, and full CI needs a maintainer.
