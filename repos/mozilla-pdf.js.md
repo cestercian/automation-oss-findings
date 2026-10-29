@@ -12,4 +12,4 @@
 - Decision: good target for small, well-diagnosed editor bugs.
 
 ## Update 2026-10-29 (midday run)
-- Picked #22271 (FreeText clone shifted up by its font size) and posted a claim. Many open pdf.js issues already have linked PRs: #22370, #22366, #22310, #22272, #22270, #22183, #22129, #22209.
+- Opened #22378 (fixes #22271, FreeText clone shifted up by its font size). Signed commit ea551d7. The CloudAgent token could not create the upstream PR, so it was opened locally with gh. Many open pdf.js issues already have linked PRs: #22370, #22366, #22310, #22272, #22270, #22183, #22129, #22209.
