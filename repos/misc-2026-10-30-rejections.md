@@ -12,3 +12,12 @@
 - playwright: needs approved issues; many recent reports are AI-filed.
 - aider: barely maintained, PRs sit.
 - hermes-agent: 3 of our PRs still unreviewed, no new ones until those move.
+
+## 2026-10-30 evening run
+- temporal #12449 (queued pick): reporter sangkyoonnam asked "OK to send a PR?" and authored the related #12441. Effectively his. Skip.
+- rclone #10186 (backup pick): JeremySpence272 has a candidate fix with tests waiting on approach confirmation. Skip.
+- apprise #1841: fixed by merged #1842 (search index still shows it open).
+- caddyserver/caddy: CONTRIBUTING requires AI assistance disclosure in every PR (template has an "Assistance Disclosure" section) plus CLA. Add to skip list. #8300 also claimed by 1steve78.
+- symfony #67653 (Psr18Client empty body with TraceableHttpClient): fresh regression from a maintainer commit (fe49133), likely fixed by the core team fast. Not taken.
+- htmx #4173: assigned to 1cg now. Skip.
+- puppeteer #15655: PR #15657 already open.
