@@ -27,3 +27,7 @@ PR #33423 (fix for #33399, base dev) merged by Koenkk on 2026-10-18, about 20 mi
 
 ## Batch35 update (2026-10-22)
 PICKED #33464 (HA extension republishes `light_type` select as `{"light": ...}` on `<device>/type`, because `onPublishEntityState` matched object ids by `light_`/`cover_` prefix). Fix: only for discovery component `light`/`cover`. Claim: https://github.com/Koenkk/zigbee2mqtt/issues/33464#issuecomment-6344104640. PR: https://github.com/Koenkk/zigbee2mqtt/pull/33472 (base dev, 857 tests, 100% coverage, full CI matrix green). PRs to `dev` don't auto-link "Fixes #N" as closing references (non-default branch).
+
+## Update 2026-10-30 (midday run)
+- Rules: PRs target the dev branch; AI-assisted PRs must stay under 500 lines; 100% test coverage required; run pnpm run check.
+- Opened #33530 (fixes #33515, frontend WebSocket server sends 30s pings and terminates dead clients). Verified commit 55922ec4. CI all green (11 checks). Opened via gh from box (agent token can't create upstream PRs).
