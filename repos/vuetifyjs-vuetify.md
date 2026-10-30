@@ -38,3 +38,6 @@ Batch32: #23268 a11y contrast not examined; #23248 disputed.
 
 ## Update 2026-10-29 (midday run)
 - #21503 is already fixed, and KaelWD called #21134 non-trivial. #20826 (VSelect autofocus with menu=true) could be a future pick but needs a v4 repro check first.
+
+## Update 2026-10-30 (midday run)
+- #21503 (VBtn toggles group on cancelled navigation) no longer reproduces on master: router-link VBtns skip group.toggle and selection follows the route. No PR (tests-only); commented on the issue and dropped the claim. Agent noted VChip still toggles unconditionally after navigate() (possible separate issue).
