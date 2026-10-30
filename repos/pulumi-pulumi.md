@@ -37,3 +37,7 @@ Skipped: staff-filed policy CLI issues (#25234-25237) handled in-house; #25215 r
 
 ## Update 2026-10-29 (evening run)
 - #25357 (Go program-gen, `for` over a tuple of outputs emits undefined `_arg0_`; filed by iwahbe): RewriteApplies wraps the for in an apply, then the for spiller hoists it out of the apply callback. Good next pick, but our open #25408 (no reviews yet) also edits gen_program_for.go, so wait for it to land to avoid conflicts.
+
+## Update 2026-10-30 (midday run)
+- Opened #25468 (fixes #25131, never-deployed DIY stack showed 'Last updated: now'; stack output now says outputs exist only after pulumi up). Verified commit b1a4ff81. CloudAgent again got 'Resource not accessible by integration' on upstream PR create; opened via gh from box.
+- #25357 dropped: duplicate PR #25454 (sarankumar1325).
