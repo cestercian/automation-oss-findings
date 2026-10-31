@@ -31,3 +31,6 @@ PICKED #33464 (HA extension republishes `light_type` select as `{"light": ...}` 
 ## Update 2026-10-30 (midday run)
 - Rules: PRs target the dev branch; AI-assisted PRs must stay under 500 lines; 100% test coverage required; run pnpm run check.
 - Opened #33530 (fixes #33515, frontend WebSocket server sends 30s pings and terminates dead clients). Verified commit 55922ec4. CI all green (11 checks). Opened via gh from box (agent token can't create upstream PRs).
+
+## Update 2026-10-31 (midday run)
+- #33530: Nerivec asked whether the keep-alive hurts mobile battery and screen. Replied (https://github.com/Koenkk/zigbee2mqtt/pull/33530#issuecomment-6540320756) that ping/pong is handled by the browser's websocket stack with no JS and no wake lock, and offered to make the default 0/off.

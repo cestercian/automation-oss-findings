@@ -28,3 +28,7 @@ PICKED #70393 (after a zmq_monitor reconnect, __master_alive runs every second a
 
 ## Update 2026-10-29 (midday run)
 - #70436: rebased onto 3008.x (base 3be18797ec) with one trivial EOF conflict in the test file. New head 77087bce is verified and the PR is mergeable again. The 5 master_alive tests pass locally, and full CI needs a maintainer.
+
+## Update 2026-10-31 (midday run)
+- #70619 (fixes #70616, opened in the Oct 30 evening run, head was d9b9fcac, twangboy approved) failed "Lint Salt's Test Suite": pylint W8470 resource-leakage on bare `open()` in tests/pytests/unit/utils/test_find.py. Fixed in 82fc6568 (verified) by using `salt.utils.files.fopen`. The push dismissed twangboy's approval, and fork CI is back to action_required until a maintainer approves the run.
+- Lesson: salt tests must use `salt.utils.files.fopen`, not `open()`. Run `pylint --rcfile=.pylintrc --disable=I <changed test files>` before pushing.

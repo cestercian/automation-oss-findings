@@ -30,3 +30,6 @@ Upstream PR creation from the cloud agent app token 403s ("Resource not accessib
 
 ## Update 2026-10-29 (evening run)
 - #37678 (ng-packagr-lite picks the wrong entry point with parallel ng-packagr 22) is already fixed on master (write-bundles.transform uses getActiveEntryPoint when available).
+
+## Update 2026-10-31 (midday run)
+- Opened #37695 (fixes #37687) in the Oct 30 evening run, head bc771407 (verified). Only Socket checks ran, and Netlify is waiting on a maintainer. Nothing to fix yet.
