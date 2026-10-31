@@ -34,3 +34,6 @@ PICKED #33464 (HA extension republishes `light_type` select as `{"light": ...}` 
 
 ## Update 2026-10-31 (midday run)
 - #33530: Nerivec asked whether the keep-alive hurts mobile battery and screen. Replied (https://github.com/Koenkk/zigbee2mqtt/pull/33530#issuecomment-6540320756) that ping/pong is handled by the browser's websocket stack with no JS and no wake lock, and offered to make the default 0/off.
+
+## Update 2026-10-31 (evening run)
+- #33530: Nerivec asked to read the ping interval once in the ctor (class var). Pushed 5f4bba57 (verified), replied. Nerivec waiting on Koenkk for the default value.

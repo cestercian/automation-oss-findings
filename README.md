@@ -162,3 +162,7 @@ Notes are updated as I go, so some may be out of date.
 | [vectordotdev/vector](repos/vectordotdev-vector.md) | skipped | 2026-10-28 evening | AI_POLICY requires naming the model used, which is AI disclosure. Skip. |
 | [oxc-project/oxc](repos/oxc-project-oxc.md) | skipped | 2026-10-28 evening | CONTRIBUTING now requires AI disclosure. Skip. |
 | [drizzle-team/drizzle-orm](repos/drizzle-team-drizzle-orm.md) | skipped | 2026-10-28 evening | PR creation is collaborators_only. Skip. |
+| [mswjs/msw](repos/mswjs-msw.md) | picked | 2026-10-31 evening | PICKED #2827 (unhandled registration.update() rejection). Upstream PR create 403 (likely interaction limit); compare URL in notes. |
+| [rolldown/rolldown](repos/rolldown-rolldown.md) | picked | 2026-10-31 evening | PR #11410 fixes #11400 (preserveModules [name] keeps non-JS extensions). |
+| [prettier/prettier](repos/misc-2026-10-31-evening-rejections.md) | skipped | 2026-10-31 evening | SKIP: PR template "I did not use AI" checkbox = disclosure. |
+| [TanStack/query](repos/misc-2026-10-31-evening-rejections.md) | skipped | 2026-10-31 evening | #12466 dupe PR #12126; CONTRIBUTING has an agent honeypot (🤖 in title), risky. |

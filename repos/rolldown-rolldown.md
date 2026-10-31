@@ -24,3 +24,8 @@ PICKED #11273 (lazy dev mode wraps plugin-resolved externals in a `?rolldown-laz
 
 ## Update 2026-10-28 (evening run)
 - #11325/#11330 untriaged, experimental area, possibly team-fixed. Not taken.
+
+## Update 2026-10-31 (evening run)
+- PICKED #11400 (preserveModules strips non-JS extensions like .vue/.css from [name]; should match Rollup's NON_ASSET_EXTENSIONS handling in getPreserveModulesChunkNameFromModule). Claim: https://github.com/rolldown/rolldown/issues/11400#issuecomment-6545100474
+- Opened rolldown/rolldown#11410 (863e8c28, verified) via box gh after the agent integration 403d.
+- AGENTS.md suggests draft PRs unless told otherwise; no AI ban/disclosure.
