@@ -38,3 +38,6 @@ PR: https://github.com/dagster-io/dagster/pull/34341 (commit 75abf3c, verified).
 
 ## Update 2026-10-29 (evening run)
 - #34356 (dbt Fusion runs `dbt list` every load) is design-heavy. #34338 gRPC DecodeError is intermittent with no repro. Our #34359 Buildkite unit-tests still blocked waiting for a maintainer unblock.
+
+## Update 2026-11-01 (midday run)
+- #34376 (get_paginated_partition_keys skips is_valid_key_format): claimed, but abhirajadhikary06 was already on it, so we yielded. Our branch cestercian/dagster fix/multi-partition-paginated-key-filter (4e9b005f) is pushed with no PR. Delete it only with Yash's OK.

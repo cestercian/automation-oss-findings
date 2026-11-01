@@ -29,3 +29,8 @@ PICKED #11273 (lazy dev mode wraps plugin-resolved externals in a `?rolldown-laz
 - PICKED #11400 (preserveModules strips non-JS extensions like .vue/.css from [name]; should match Rollup's NON_ASSET_EXTENSIONS handling in getPreserveModulesChunkNameFromModule). Claim: https://github.com/rolldown/rolldown/issues/11400#issuecomment-6545100474
 - Opened rolldown/rolldown#11410 (863e8c28, verified) via box gh after the agent integration 403d.
 - AGENTS.md suggests draft PRs unless told otherwise; no AI ban/disclosure.
+
+## Update 2026-11-01 (midday + evening runs)
+- #11410 (fixes #11400) MERGED ~12:04 AM IST Nov 1.
+- PICKED #11330 (getModuleInfo / this.resolve report moduleSideEffects null instead of the effective value). Agent PR create 403d again; opened https://github.com/rolldown/rolldown/pull/11422 via box gh (8fd1bd8e, verified).
+- By the evening #11422 conflicted with main (packages/rolldown/src/plugin/plugin-context-data.ts, branch 60+ behind) and only the Socket checks ran. Rolldown CI does not run on conflicting PRs, so rebase promptly when main moves fast. A rebase agent was launched.

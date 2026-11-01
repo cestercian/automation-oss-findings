@@ -40,3 +40,7 @@ Skipped: #12652, #12647, #12611, #12625, #12506, #12493 all have PRs.
 
 ## Update 2026-10-29 (evening run)
 - #12792 (single-node ring after a DB outage) has a contributor asking to take it; #12782/#12784 are maintainer lock work. Nothing taken.
+
+## Update 2026-11-01 (evening run)
+- PICKED #12837 (SQLite IsDupEntryError uses a bitmask `Code()&0xE13 != 0`, so BUSY/LOCKED/IOERR/NOT NULL etc. count as dup-key). No cross-referenced PRs. Claim: https://github.com/temporalio/temporal/issues/12837#issuecomment-6559740935
+- CloudAgent must use the fork URL (https://github.com/cestercian/temporal); the upstream URL is "not accessible to the connected GitHub account". Has a CLA bot.

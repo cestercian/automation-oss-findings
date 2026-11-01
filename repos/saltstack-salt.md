@@ -32,3 +32,7 @@ PICKED #70393 (after a zmq_monitor reconnect, __master_alive runs every second a
 ## Update 2026-10-31 (midday run)
 - #70619 (fixes #70616, opened in the Oct 30 evening run, head was d9b9fcac, twangboy approved) failed "Lint Salt's Test Suite": pylint W8470 resource-leakage on bare `open()` in tests/pytests/unit/utils/test_find.py. Fixed in 82fc6568 (verified) by using `salt.utils.files.fopen`. The push dismissed twangboy's approval, and fork CI is back to action_required until a maintainer approves the run.
 - Lesson: salt tests must use `salt.utils.files.fopen`, not `open()`. Run `pylint --rcfile=.pylintrc --disable=I <changed test files>` before pushing.
+
+## Update 2026-11-01 (evening run)
+- PICKED #70622 (masterapi RemoteFuncs._mine: clear=True path never assigns `data`, so UnboundLocalError and stale mine data). Base 3008.x. Claim: https://github.com/saltstack/salt/issues/70622#issuecomment-6559741580
+- CloudAgent must use the fork URL (https://github.com/cestercian/salt) and fetch upstream 3008.x itself.
