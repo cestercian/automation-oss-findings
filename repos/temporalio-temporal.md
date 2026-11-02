@@ -49,3 +49,4 @@ Skipped: #12652, #12647, #12611, #12625, #12506, #12493 all have PRs.
 - #12872 (for #12837) still open, CLA signed.
 - #12874 and #12881 already have PRs. Skip.
 - PICKED #12880 (child completion dropped after a parent reset once the old run is deleted by retention; resolve the current parent run on NotFound). Claim: https://github.com/temporalio/temporal/issues/12880#issuecomment-6580490058 . Agent bc-c34a5714.
+- Opened #12886 (8b0002bf, verified) with box gh after the agent's upstream create was denied. CLA passes. crossrepo/saas-compatibility is pending, and the main CI workflows look like they need a maintainer to approve the run.

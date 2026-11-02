@@ -49,3 +49,4 @@ SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
 - #4173 and #4180 are assigned to 1cg; skip.
 - PICKED #4182 (parseHTMLUnsafe(trusted, {}) throws in Chrome 124-145, fall back like #4085). Claim: https://github.com/bigskysoftware/htmx/issues/4182#issuecomment-6580488778 . Agent bc-f0391627, base four-dev.
 - #4183 (lazy history stamp aborts hx-browser-indicator) and #4184 (morph drops typed text after blur) are free backups from tFo-DE, both 4.0.1 regressions.
+- Opened #4186 (208f19ca, verified) with box gh because the agent's upstream create got "Resource not accessible by integration". CI passed: htmx_tests, website_tests, content. The agent's stray fork PR cestercian/htmx#2 is already closed.
