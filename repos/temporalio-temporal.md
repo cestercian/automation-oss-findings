@@ -44,3 +44,8 @@ Skipped: #12652, #12647, #12611, #12625, #12506, #12493 all have PRs.
 ## Update 2026-11-01 (evening run)
 - PICKED #12837 (SQLite IsDupEntryError uses a bitmask `Code()&0xE13 != 0`, so BUSY/LOCKED/IOERR/NOT NULL etc. count as dup-key). No cross-referenced PRs. Claim: https://github.com/temporalio/temporal/issues/12837#issuecomment-6559740935
 - CloudAgent must use the fork URL (https://github.com/cestercian/temporal); the upstream URL is "not accessible to the connected GitHub account". Has a CLA bot.
+
+## Update 2026-11-02 (evening run)
+- #12872 (for #12837) still open, CLA signed.
+- #12874 and #12881 already have PRs. Skip.
+- PICKED #12880 (child completion dropped after a parent reset once the old run is deleted by retention; resolve the current parent run on NotFound). Claim: https://github.com/temporalio/temporal/issues/12880#issuecomment-6580490058 . Agent bc-c34a5714.

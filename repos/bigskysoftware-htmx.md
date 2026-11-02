@@ -43,3 +43,9 @@ SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
 
 ## Update 2026-10-29 (evening run)
 - #4173 skipped: still a design question and our notes say hold off until #4163/#4165 land.
+
+## Update 2026-11-02 (evening run)
+- #4165 was closed earlier; #4163 still open (base dev). Maintainers now target `four-dev` for 4.x source PRs (e.g. #4177); PR template says run `npm run test`, no AI clause.
+- #4173 and #4180 are assigned to 1cg; skip.
+- PICKED #4182 (parseHTMLUnsafe(trusted, {}) throws in Chrome 124-145, fall back like #4085). Claim: https://github.com/bigskysoftware/htmx/issues/4182#issuecomment-6580488778 . Agent bc-f0391627, base four-dev.
+- #4183 (lazy history stamp aborts hx-browser-indicator) and #4184 (morph drops typed text after blur) are free backups from tFo-DE, both 4.0.1 regressions.

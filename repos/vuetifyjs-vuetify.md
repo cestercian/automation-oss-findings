@@ -41,3 +41,6 @@ Batch32: #23268 a11y contrast not examined; #23248 disputed.
 
 ## Update 2026-10-30 (midday run)
 - #21503 (VBtn toggles group on cancelled navigation) no longer reproduces on master: router-link VBtns skip group.toggle and selection follows the route. No PR (tests-only); commented on the issue and dropped the claim. Agent noted VChip still toggles unconditionally after navigate() (possible separate issue).
+
+## Update 2026-11-02 (evening run)
+- #23328 has PR #23330. Skip.

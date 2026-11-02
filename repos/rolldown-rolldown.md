@@ -34,3 +34,7 @@ PICKED #11273 (lazy dev mode wraps plugin-resolved externals in a `?rolldown-laz
 - #11410 (fixes #11400) MERGED ~12:04 AM IST Nov 1.
 - PICKED #11330 (getModuleInfo / this.resolve report moduleSideEffects null instead of the effective value). Agent PR create 403d again; opened https://github.com/rolldown/rolldown/pull/11422 via box gh (8fd1bd8e, verified).
 - By the evening #11422 conflicted with main (packages/rolldown/src/plugin/plugin-context-data.ts, branch 60+ behind) and only the Socket checks ran. Rolldown CI does not run on conflicting PRs, so rebase promptly when main moves fast. A rebase agent was launched.
+
+## Update 2026-11-02 (evening run)
+- #11295: hyfdev asked for wording that covers every external ctx.resolve result plus an import('node:fs') test with platform 'node'. Pushed 19fbb69 (verified) and replied.
+- #11417 and #11397 are assigned to IWANABETHATGUY with PRs. #11447 was filed by sxzzbot (maintainer side), so leave it. Holding new rolldown PRs while #11295 and #11422 are open.

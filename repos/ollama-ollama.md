@@ -29,3 +29,6 @@ SKIPPED: #18995 is an API design discussion; #19040 disputed; rest are GPU/model
 - #19326 is still waiting on design discussion, no PR yet. Skipped.
 ## Update 2026-10-28 (evening run)
 - #19342 already claimed by A-RYAN-1.
+
+## Update 2026-11-02 (evening run)
+- #19446 has PR #19447. #19457 (llama.cpp rope shift) is upstream in llama.cpp, and #19463 (hybrid-model VRAM prediction) is large. Skipped.

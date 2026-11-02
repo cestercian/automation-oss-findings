@@ -29,3 +29,6 @@ SKIPPED: under 10k stars; #5963 has PR #5964.
 - Opened #6094 (fixes #6092): extractBody re-enqueued string/byte bodies on every pull before the deferred queueMicrotask close. Fix is a once-only flag plus test/fetch/issue-6092.js. DCO sign-off included.
 - test/fetch/cookies.js (HTTP/2 TLS) fails locally on main too, so ignore it.
 - Skipped #6082, #6060, #6054: they already have PRs.
+
+## Update 2026-11-02 (evening run)
+- Every fresh issue already has a PR: #6123, #6135, #6112, #6115, #6110, #6106. Nothing picked.

@@ -41,3 +41,6 @@ PR: https://github.com/dagster-io/dagster/pull/34341 (commit 75abf3c, verified).
 
 ## Update 2026-11-01 (midday run)
 - #34376 (get_paginated_partition_keys skips is_valid_key_format): claimed, but abhirajadhikary06 was already on it, so we yielded. Our branch cestercian/dagster fix/multi-partition-paginated-key-filter (4e9b005f) is pushed with no PR. Delete it only with Yash's OK.
+
+## Update 2026-11-02 (evening run)
+- #34386 has PR #34387 by the reporter MarcoGorelli. #34385 (sensor preview UnboundLocalError) is also his and he seems to fix his own reports; skipped so we don't race him.
