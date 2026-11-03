@@ -166,3 +166,6 @@ Notes are updated as I go, so some may be out of date.
 | [rolldown/rolldown](repos/rolldown-rolldown.md) | picked | 2026-10-31 evening | PR #11410 fixes #11400 (preserveModules [name] keeps non-JS extensions). |
 | [prettier/prettier](repos/misc-2026-10-31-evening-rejections.md) | skipped | 2026-10-31 evening | SKIP: PR template "I did not use AI" checkbox = disclosure. |
 | [TanStack/query](repos/misc-2026-10-31-evening-rejections.md) | skipped | 2026-10-31 evening | #12466 dupe PR #12126; CONTRIBUTING has an agent honeypot (🤖 in title), risky. |
+| [Unitech/pm2](repos/Unitech-pm2.md) | PR open | 2026-11-03 evening | #6179 retargeted to development; review fixes ready locally, push blocked (no Cloud Agent usage). |
+| [continuedev/continue](repos/continuedev-continue.md) | skipped | 2026-11-03 evening | SKIP: unmaintained, no commits since 2026-07-21. |
+| [misc 2026-11-03 evening](repos/misc-2026-11-03-evening.md) | notes | 2026-11-03 evening | No new PRs (Cloud Agent usage exhausted); sweep notes. |

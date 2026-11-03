@@ -31,3 +31,6 @@ Skipped: #13372 and #13383 have PRs.
 
 ## Update 2026-10-24 evening (batch39)
 - CI quirk: jetbrains-tests fails on every PR in the repo (even docs-only ones), so it's pre-existing. CLA is now signed (a cestercian CLA comment was posted 2026-10-24 15:39Z and CLA Assistant passes). Snyk fails on quota.
+
+## Update 2026-11-03 (evening run)
+- No commits to main since 2026-07-21; issue #13446 "This repository is no longer maintained". Treat as unmaintained: SKIP new PRs. Our #13418 can stay open but don't expect review.
