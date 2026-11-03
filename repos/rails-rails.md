@@ -40,3 +40,8 @@ Batch32: #59055 is about the website; #58990 claimed; #59153 Ractor related.
 
 ## Update 2026-11-02 (evening run)
 - #59480, #59517, #59457, #59439 and #59419 all have cross-referenced PRs. Nothing picked.
+
+## Update 2026-11-03 (midday run)
+- PICKED #59540 (nested reconnect! -> SystemStackError when the server drops the first query during configure_connection, e.g. PgDog). Claim: https://github.com/rails/rails/issues/59540#issuecomment-6597480553 . Agent bc-8a4b8d75 (grok-4.7 high).
+- Fix: attempt_configure_connection sets @configuring_connection, reconnect_can_restore_state? returns false while set, so the outer reconnect! keeps its own budget. Opened #59567 (9aa53a8e, verified) with box gh after agent 403. adapter_test passed on sqlite3, postgresql, mysql2, trilogy.
+- #59545/#59546 are security-design reports (CSRF, signed cookies); not for drive-by PRs.

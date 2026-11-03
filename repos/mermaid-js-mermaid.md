@@ -39,3 +39,7 @@ SKIPPED: #7564 and #7047 already fixed; newer issues are triage/feature requests
 - #8574 already has PR #8577.
 - Tooling: needs Node 22.12+ (box has 20; Node 24 tarball in /tmp/node24 with COREPACK_HOME=/tmp/corepack). Fork develop is stale and can't be synced (workflow scope), so the agent branches from upstream/develop. CloudAgent couldn't open the upstream PR; opened via gh from the box.
 - CodeRabbit flagged ancestor transforms on getBoundingClientRect (Minor); replied keeping scope (old check had same issue, offsetWidth rounds and is 0 in jsdom): https://github.com/mermaid-js/mermaid/pull/8609#discussion_r4414498048
+
+## Update 2026-11-03 (midday run)
+- #8609: filipsajdak verified it and will approve once the description shows the change. Rendered before (mermaid@12.2.0) and after (pkg.pr.new build) in a zoom: 1.25 host with headless Chrome on the box, hosted PNGs on cestercian/mermaid branch pr-8609-assets, added a Before / after section to the body and replied.
+- Trick for visual asks: pkg.pr.new/mermaid@<PR> tarball has dist/mermaid.min.js, which works from file:// with google-chrome --headless --virtual-time-budget.
