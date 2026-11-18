@@ -34,3 +34,8 @@ Skipped: no open Bug-labeled issues except old #40705; only translation good-fir
 ## Update 2026-10-25 (evening run)
 - carsonbot's "Missing translations" issues (#67416-#67435) say a native speaker must do them. Skip unless it's a language Yash actually speaks natively.
 - #67487 is a design question, not a scoped fix.
+
+## Update 2026-11-18 (evening run)
+- No AI clause in CONTRIBUTING, PR template or symfony.com patches doc; repo now ships .agents/skills (pr-authoring etc). PR template table required; bug fixes target lowest maintained branch (6.4 / 7.4 / 8.1).
+- Bugs get PRs within a day (#68225 has #68258, #68219 has #68232).
+- PICKED #68259 (ReflectionExtractor::getWriteInfo returns adder/remover for singular `network` when `networks` has addNetwork/removeNetwork; findAdderAndRemover runs before setter lookup). Claim: https://github.com/symfony/symfony/issues/68259#issuecomment-6982550041 . Agent bc-44eadc3b (grok-4.7 high).
