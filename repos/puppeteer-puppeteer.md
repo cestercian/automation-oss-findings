@@ -34,3 +34,6 @@ Skipped: #15630 has PR #15631, #15497 had two closed PRs, #14508 (license-checke
 
 ## Update 2026-10-27 (midday run)
 - #15656 (firefox version comparator) has PRs #15658 + #15681; #15655 (Shift L/R modifier) has #15657. Open confirmed issues are old features.
+
+## Update 2026-11-18 (midday run)
+- #15709 (shared worker bypasses blocklist/allowlist) is handled: OrKoN chose the Chromium-side fix (CL 8770778 by serdarucel) and #15720 landed tests marked FAIL in TestExpectations until the Chrome roll. Not taken. Note: CDP Network.setBlockedURLs urlPatterns supports {urlPattern, block:false} allow rules, if it ever comes up again.

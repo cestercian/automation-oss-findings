@@ -30,3 +30,7 @@ Skipped: only fresh bug #1828 (Pushover empty HTML) already has PR #1829 (theluc
 
 ## Update 2026-10-29 (evening run)
 - #1841 already has PR #1842.
+
+## Update 2026-11-18 (midday run)
+- PICKED #1897 (MarkdownV2 spoiler ||x|| escaped when body_format is MARKDOWN). Claim: https://github.com/caronc/apprise/issues/1897#issuecomment-6971595288 . Agent bc-ebc4711e (grok-4.7 high).
+- Opened #1899 (152d0103, verified). Full suite 4017 passed, tox -e lint clean. Agent upstream create got 'Resource not accessible by integration' but the PR still ended up opened as cestercian.

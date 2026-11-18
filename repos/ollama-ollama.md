@@ -32,3 +32,8 @@ SKIPPED: #18995 is an API design discussion; #19040 disputed; rest are GPU/model
 
 ## Update 2026-11-02 (evening run)
 - #19446 has PR #19447. #19457 (llama.cpp rope shift) is upstream in llama.cpp, and #19463 (hybrid-model VRAM prediction) is large. Skipped.
+
+## Update 2026-11-18 (midday run)
+- #18841 is superseded by upstream #18874 (531946e9, hide duplicate and downgrade guards from list, closed #18830). Not rebased. Left open per standing rule.
+- PICKED #19751 (thinking box clips 10+ list markers: prose-sm ol padding 22px vs 22.6px marker, overflow-hidden wrapper). Claim: https://github.com/ollama/ollama/issues/19751#issuecomment-6971595581 . Agent bc-9d967412 (grok-4.7 high).
+- Opened #19755 (947da2d9, verified) with box gh after agent create 403. Fix [&_ol]:ps-[5ch] in Thinking.tsx plus a vitest browser test. npm run lint has 112 pre-existing no-explicit-any errors and prettier:check fails on 6 existing files, not ours. App UI uses vitest --mode browser for *.browser.test.tsx.

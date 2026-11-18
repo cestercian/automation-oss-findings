@@ -45,3 +45,7 @@ Batch32: #59055 is about the website; #58990 claimed; #59153 Ractor related.
 - PICKED #59540 (nested reconnect! -> SystemStackError when the server drops the first query during configure_connection, e.g. PgDog). Claim: https://github.com/rails/rails/issues/59540#issuecomment-6597480553 . Agent bc-8a4b8d75 (grok-4.7 high).
 - Fix: attempt_configure_connection sets @configuring_connection, reconnect_can_restore_state? returns false while set, so the outer reconnect! keeps its own budget. Opened #59567 (9aa53a8e, verified) with box gh after agent 403. adapter_test passed on sqlite3, postgresql, mysql2, trilogy.
 - #59545/#59546 are security-design reports (CSRF, signed cookies); not for drive-by PRs.
+
+## Update 2026-11-18 (midday run)
+- #58954 and #59567 rebased signed (2260bf78, f3146c6a). Conflicts were CHANGELOG plus mysql2/trilogy rake test tmpdir. Agent VM had no Ruby; files ruby -c checked on the box. Rely on Buildkite.
+- #59831 (stale slot reader after reset_column_information): MIbtehajNasar offered a PR. #59792 has PR #59632. Not taken.

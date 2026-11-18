@@ -55,3 +55,6 @@ SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
 - PICKED #4183 (lazy history stamp from #4067 calls replaceState during hx-browser-indicator's pending navigation and aborts the request). Claim: https://github.com/bigskysoftware/htmx/issues/4183#issuecomment-6597481240 . Agent bc-49e5b410 (grok-4.7 high).
 - Opened #4192 (13dd5672, verified, base four-dev) with box gh; agent create got "Resource not accessible by integration" again. npm test 1853 passed.
 - We now have 3 open in htmx (#4163, #4186, #4192): hold new htmx PRs until one lands. #4184 (morph drops typed text after blur) is still a free backup.
+
+## Update 2026-11-18 (midday run)
+- #4202 has PR #4203, #4221 has PR #4225, #4206 is a Chrome synthetic-event quirk (MichaelWest22), #4219 is AI-filed and unconfirmed. #4226 (upsert sorts without sort) may be intended. htmx has 30+ open PRs; ours (#4163, #4192) still waiting. Nothing taken.

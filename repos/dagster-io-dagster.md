@@ -44,3 +44,6 @@ PR: https://github.com/dagster-io/dagster/pull/34341 (commit 75abf3c, verified).
 
 ## Update 2026-11-02 (evening run)
 - #34386 has PR #34387 by the reporter MarcoGorelli. #34385 (sensor preview UnboundLocalError) is also his and he seems to fix his own reports; skipped so we don't race him.
+
+## Update 2026-11-18 (midday run)
+- #34440 (pool slot claim race, needs transactional locking across SQLite/Postgres) is too big for a drive-by. #34405 has PR #34406.
