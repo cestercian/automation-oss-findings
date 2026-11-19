@@ -41,3 +41,6 @@ PICKED #11273 (lazy dev mode wraps plugin-resolved externals in a `?rolldown-laz
 
 ## Update 2026-11-18 (evening run)
 - #11422: hyfdev asked for Rollup parity (externals and treeshake:false fall back to true) and one shared fn with normalize_side_effects (raw_id() since #11302). PR was conflicting. Agent bc-2f7e702f (grok-4.7 high) merging main with a signed merge commit and addressing it.
+
+## Update 2026-11-19 (evening run)
+- #11422 MERGED (hyfdev merged main, approved 13:12Z). Only #11295 left open: rolldown hold can relax once that lands.

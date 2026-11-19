@@ -36,3 +36,7 @@ PICKED #70393 (after a zmq_monitor reconnect, __master_alive runs every second a
 ## Update 2026-11-01 (evening run)
 - PICKED #70622 (masterapi RemoteFuncs._mine: clear=True path never assigns `data`, so UnboundLocalError and stale mine data). Base 3008.x. Claim: https://github.com/saltstack/salt/issues/70622#issuecomment-6559741580
 - CloudAgent must use the fork URL (https://github.com/cestercian/salt) and fetch upstream 3008.x itself.
+
+## Update 2026-11-19 (evening run)
+- PICKED #70792 (filed by maintainer dwoz with the fix shape: thread `options` through ssh.check_key_file for ssh_auth test=True). Claim: https://github.com/saltstack/salt/issues/70792#issuecomment-7013279875 . Agent bc-12540220 (grok-4.7 high). Opened #70864 (base 3008.x, 3bf74cce verified). Fork CI waits on maintainer approval. Recent merges all target 3008.x.
+- #70830 (win_pdh for/else) had PR #70828 (closed); #70860/#70853/#70833 not looked at in depth.

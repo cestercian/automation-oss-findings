@@ -39,3 +39,7 @@ Skipped: no open Bug-labeled issues except old #40705; only translation good-fir
 - No AI clause in CONTRIBUTING, PR template or symfony.com patches doc; repo now ships .agents/skills (pr-authoring etc). PR template table required; bug fixes target lowest maintained branch (6.4 / 7.4 / 8.1).
 - Bugs get PRs within a day (#68225 has #68258, #68219 has #68232).
 - PICKED #68259 (ReflectionExtractor::getWriteInfo returns adder/remover for singular `network` when `networks` has addNetwork/removeNetwork; findAdderAndRemover runs before setter lookup). Claim: https://github.com/symfony/symfony/issues/68259#issuecomment-6982550041 . Agent bc-44eadc3b (grok-4.7 high).
+
+## Update 2026-11-19 (evening run)
+- #68261: nicolas-grekas review (plural property instead of pluralize(), aircraft failed low-deps on symfony/string < 6.4.3, staff collection went to setter, retarget 6.4 -> 7.4, add [PropertyInfo]). Agent bc-87bb7de6 pushed 42b969e6 (verified, normal push): setter only wins when another declared property singularizes to the name; staff test added. Low-deps (8.2) CI now green. Title prefixed via gh. Replied.
+- Retarget to 7.4 NOT done: waiting for Yash's OK (base-only `gh pr edit --base 7.4` may work without a push since 6.4 merges up into 7.4, but symfony usually wants the branch rebased onto 7.4 = force-push).
