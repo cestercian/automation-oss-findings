@@ -33,3 +33,7 @@ Upstream PR creation from the cloud agent app token 403s ("Resource not accessib
 
 ## Update 2026-10-31 (midday run)
 - Opened #37695 (fixes #37687) in the Oct 30 evening run, head bc771407 (verified). Only Socket checks ran, and Netlify is waiting on a maintainer. Nothing to fix yet.
+
+## Update 2026-11-20 (midday run)
+- PICKED #37966 (EPIPE during SIGTERM cleanup orphans continuous tasks). PR #37970, signed head fcb8f36f. handleSignal now installs a stdout/stderr error handler that swallows only EPIPE / ERR_STREAM_DESTROYED. New spec in task-orchestrator.spec.ts; real repro verified (5 orphans -> 0, exit 130).
+- Fork sync works via merge-upstream API now.
