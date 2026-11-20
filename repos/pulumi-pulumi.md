@@ -41,3 +41,6 @@ Skipped: staff-filed policy CLI issues (#25234-25237) handled in-house; #25215 r
 ## Update 2026-10-30 (midday run)
 - Opened #25468 (fixes #25131, never-deployed DIY stack showed 'Last updated: now'; stack output now says outputs exist only after pulumi up). Verified commit b1a4ff81. CloudAgent again got 'Resource not accessible by integration' on upstream PR create; opened via gh from box.
 - #25357 dropped: duplicate PR #25454 (sarankumar1325).
+
+## Update 2026-11-20 (evening run)
+- Opened #25810 (fixes #25798, python docRefResolver: function input refs -> `get_server(name=...)`, output refs -> result class from outputs token via awaitableTypeNames). Signed head 4b130456 (verified). Fork synced via merge-upstream API before launch.
