@@ -32,3 +32,6 @@ SKIPPED: under 10k stars; #5963 has PR #5964.
 
 ## Update 2026-11-02 (evening run)
 - Every fresh issue already has a PR: #6123, #6135, #6112, #6115, #6110, #6106. Nothing picked.
+
+## Update 2026-11-21 (evening run)
+- Every fresh bug (#6184, #6144, #6082, #6202 and others) already has open PRs. Nothing picked.
