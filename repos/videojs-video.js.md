@@ -9,3 +9,8 @@
 ## Update 2026-11-22 (midday run)
 - PICKED #9769 (react-native player/media dead after <Activity> hide/show; port of #9768). Claim: https://github.com/videojs/video.js/issues/9769#issuecomment-7075766083 . Agent bc-5bc7c8fa (grok-4.7 high). PR #9833 (786cca96 verified): useDestroy clears pendingRef + useInstance, provided media untouched, first vitest setup for packages/react-native. Agent also opened a fork PR (cestercian/video.js#1, closed) with Fixes in body; body scrubbed.
 - #9796 has PR #9797; #9812 is a bigger coordinator lifecycle issue; #9708 not reproducible per orcnd.
+
+## Update 2026-11-22 (evening run)
+- PICKED #9759 (SPF removeAllSubtitlesTracksFromMedia only calls el.remove(), so a showing slot keeps painting cues in Chrome after source change; hls.js adapter already disables first). Headless Chrome check: removed track keeps mode=showing with its cue. Claim: https://github.com/videojs/video.js/issues/9759#issuecomment-7081147588 . Brief: /workspace/oss-evening-2026-11-22/video.js-9759.md (composer-2.5).
+- SPF tests under src/media/dom and src/playback/behaviors/dom run in real Chromium (vite-plus browser mode, project `dom`), so DOM behavior can be asserted for real.
+- #9802 (SPF aborts an in-flight segment the playhead passed) is confirmed but bigger; #9812 coordinator lifecycle still open and bigger.

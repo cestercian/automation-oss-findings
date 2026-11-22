@@ -47,3 +47,7 @@ PR: https://github.com/dagster-io/dagster/pull/34341 (commit 75abf3c, verified).
 
 ## Update 2026-11-18 (midday run)
 - #34440 (pool slot claim race, needs transactional locking across SQLite/Postgres) is too big for a drive-by. #34405 has PR #34406.
+
+## Update 2026-11-22 (evening run)
+- PICKED #34468 (has_nonzero_minute_offset is @functools.cache'd but reads datetime.now(), so Australia/Lord_Howe answer flips with the season and a long-lived daemon keeps the wrong one). Unlabeled but very detailed; filed ~30 min before the claim. Claim: https://github.com/dagster-io/dagster/issues/34468#issuecomment-7081147812 . Brief: /workspace/oss-evening-2026-11-22/dagster-34468.md (composer-2.5).
+- Related tests live in dagster_tests/scheduler_tests/test_cron_string_iterator.py (non-hour offset tests from #33474). Open PR #34431 also edits schedules.py.
