@@ -46,3 +46,6 @@ Skipped: no open Bug-labeled issues except old #40705; only translation good-fir
 
 ## Update 2026-11-21 (evening run)
 - Fresh unclaimed bugs seen: #68299, #68298, #68275, #68259 (no PR yet at check time). Not picked: box has no php/composer, so no local phpunit repro. Bugs here get PRs within a day.
+
+## Update 2026-11-22 (midday run)
+- #68261 merged by nicolas-grekas (2026-11-19 16:36Z), so the 7.4 retarget question is moot. #68299 (#68306), #68298 (#68314), #68275 (#68277 merged) all taken.

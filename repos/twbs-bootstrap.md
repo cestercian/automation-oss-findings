@@ -10,3 +10,6 @@
 ## Update 2026-11-21 (midday run)
 - Opened #43434 (fixes #43431): range-track fill stops use the thumb-center calc like `.form-range-bubble`. Signed head b7d82151 (verified). css-lint + css-test pass; Chromium mismatch 7.8px -> 0 at the ends.
 - pricop files many v6 bugs and often PRs them himself (#43430 for #43415); claim within hours.
+
+## Update 2026-11-22 (midday run)
+- #43434 merged by mdo (2026-11-21 21:40Z) after pricop confirmed the fix. #43428 claimed by nikhil-304, #43404 has pricop's #43406, #43436 is by design, #43437 needs-decision.

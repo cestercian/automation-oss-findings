@@ -40,3 +40,8 @@ PICKED #70393 (after a zmq_monitor reconnect, __master_alive runs every second a
 ## Update 2026-11-19 (evening run)
 - PICKED #70792 (filed by maintainer dwoz with the fix shape: thread `options` through ssh.check_key_file for ssh_auth test=True). Claim: https://github.com/saltstack/salt/issues/70792#issuecomment-7013279875 . Agent bc-12540220 (grok-4.7 high). Opened #70864 (base 3008.x, 3bf74cce verified). Fork CI waits on maintainer approval. Recent merges all target 3008.x.
 - #70830 (win_pdh for/else) had PR #70828 (closed); #70860/#70853/#70833 not looked at in depth.
+
+## Update 2026-11-22 (midday run)
+- #70864 merged by dwoz (2026-11-21 03:28Z). #70619 merged by dwoz (2026-11-20).
+- PICKED #70742 (dup of #66022, assigned to dwoz since 2024 but idle; dwoz gave the fix shape on #70742 2026-11-13: `_parallel_map` threads lack `contextvars.copy_context()`). Claim: https://github.com/saltstack/salt/issues/70742#issuecomment-7075720275 . Agent bc-271cc4e7 (grok-4.7 high). PR #70908 (base 3008.x, f64ad729 verified): copy_context per worker + non-dict runner returns handled in saltmod (test.py untouched), unit tests + orchestrate integration test (--run-slow), changelog/66022.fixed.md. Upstream CI ran without approval this time; lint/pre-commit/docs green.
+- #70891 (minion log level) has dwoz's own PR #70892. #70671 is not a bug (alternatives module moved to extensions).
