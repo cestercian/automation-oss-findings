@@ -35,3 +35,7 @@ SKIPPED: under 10k stars; #5963 has PR #5964.
 
 ## Update 2026-11-21 (evening run)
 - Every fresh bug (#6184, #6144, #6082, #6202 and others) already has open PRs. Nothing picked.
+
+## Update 2026-11-23 (evening run)
+- Claimed #6246 (WebSocket messages in one chunk dispatched in same task) and opened #6248 (Fixes #6246). Fix: first message immediate, later buffered ones via setImmediate; close frame applied after message tasks (chained setImmediate turns clean close into 1006). Test: test/websocket/issue-6246.js. Lint: npm run lint. Tests: npm run test:websocket (borp). DCO sign-off required (-s).
+- Fork main was 129 commits behind: branch from upstream/main. Local HTTP/2 handshake tests fail with timeouts, ignore.
