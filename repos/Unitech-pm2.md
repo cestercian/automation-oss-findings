@@ -41,3 +41,7 @@ Batch32: #6171 is a complex watch-restart race ("Callback was already called").
 
 ## Update 2026-11-18 (midday run)
 - #6182 (cluster node_args race) already has PR #6183. #6185 (pm2 ls --namespace) is a feature ask with no maintainer reply; not taken.
+
+## Update 2026-11-23 (evening run)
+- Claimed #6182 (cluster workers get another app's node_args) but it is already fixed on development (c21c1815, test/programmatic/issue_6182_node_args_race.mocha.js); issue stays open because it is not on master. No PR opened; always check development before claiming.
+- Tests: bash test/unit.sh. No lint script. PRs target development, lowercase prefixed commits, no DCO.
