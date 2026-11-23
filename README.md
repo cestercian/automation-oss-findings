@@ -169,3 +169,9 @@ Notes are updated as I go, so some may be out of date.
 | [Unitech/pm2](repos/Unitech-pm2.md) | PR open | 2026-11-03 evening | #6179 retargeted to development; review fixes ready locally, push blocked (no Cloud Agent usage). |
 | [continuedev/continue](repos/continuedev-continue.md) | skipped | 2026-11-03 evening | SKIP: unmaintained, no commits since 2026-07-21. |
 | [misc 2026-11-03 evening](repos/misc-2026-11-03-evening.md) | notes | 2026-11-03 evening | No new PRs (Cloud Agent usage exhausted); sweep notes. |
+| [semaphoreui/semaphore](repos/semaphoreui-semaphore.md) | picked | 2026-11-23 midday | PICKED #4456 (runner never kills a job the server reports as stopped/stopping on that poll). Brief in batch-2026-11-23-midday. |
+| [junegunn/fzf](repos/junegunn-fzf.md) | picked | 2026-11-23 midday | PICKED #4962 (bash CTRL-R Perl path: oldest entry gets an empty line and escapes de-dup). One-line fix + tmux test. |
+| [socketio/socket.io](repos/socketio-socket.io.md) | picked | 2026-11-23 midday | PICKED #5642 (duplicate CONNECT creates two Sockets). Pending-namespace set in Client, 2 tests. |
+| [jdx/mise](repos/jdx-mise.md) | skipped | 2026-11-23 midday | HARD SKIP: no external PRs accepted (GitHub blocks creation). |
+| [hatchet-dev/hatchet](repos/hatchet-dev-hatchet.md) | skipped | 2026-11-23 midday | SKIP: vouch request required before PRs. |
+| [misc 2026-11-23 midday](repos/misc-2026-11-23-midday.md) | notes | 2026-11-23 midday | Rejections and saturation notes. |

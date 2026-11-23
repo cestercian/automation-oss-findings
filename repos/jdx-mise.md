@@ -27,3 +27,6 @@ CONTRIBUTING restricts AI replies on discussions/issues. #14855 (`mise rm tool@v
 
 ## Update 2026-10-25 (evening run)
 - Using AI to reply on issues gets you banned. Hard skip.
+
+## Update 2026-11-23 (midday run)
+CONTRIBUTING now says mise is not accepting pull requests from external contributors and GitHub blocks PR creation; AGENTS.md says the same. HARD SKIP. (#16017 disable_tools vs command-wrapper symlinks was a clean bug.)
