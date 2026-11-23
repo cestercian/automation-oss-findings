@@ -34,3 +34,7 @@ Skipped: only fresh bug #1828 (Pushover empty HTML) already has PR #1829 (theluc
 ## Update 2026-11-18 (midday run)
 - PICKED #1897 (MarkdownV2 spoiler ||x|| escaped when body_format is MARKDOWN). Claim: https://github.com/caronc/apprise/issues/1897#issuecomment-6971595288 . Agent bc-ebc4711e (grok-4.7 high).
 - Opened #1899 (152d0103, verified). Full suite 4017 passed, tox -e lint clean. Agent upstream create got 'Resource not accessible by integration' but the PR still ended up opened as cestercian.
+
+## Update 2026-11-23 (evening run)
+- Claimed #1910 and opened #1912 (Fixes #1910): user-only URLs sent Basic password "None"; plugins now pass empty string. Test: tests/test_basic_auth_user_only.py. Lint: tox -e lint (ruff check + ruff format --check, 79 cols). PR template at .github/PULL_REQUEST_TEMPLATE.md, target master, no DCO.
+- Same auth=(self.user, self.password) pattern remains in other plugins (BulkSMS, Nextcloud etc), possible follow-up.
