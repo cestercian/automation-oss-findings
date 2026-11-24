@@ -175,3 +175,6 @@ Notes are updated as I go, so some may be out of date.
 | [jdx/mise](repos/jdx-mise.md) | skipped | 2026-11-23 midday | HARD SKIP: no external PRs accepted (GitHub blocks creation). |
 | [hatchet-dev/hatchet](repos/hatchet-dev-hatchet.md) | skipped | 2026-11-23 midday | SKIP: vouch request required before PRs. |
 | [misc 2026-11-23 midday](repos/misc-2026-11-23-midday.md) | notes | 2026-11-23 midday | Rejections and saturation notes. |
+| [prisma/orm](repos/prisma-orm.md) | picked | 2026-11-24 midday | PICKED #31196 (adapter-pg shadow DB connects to main DB with a connection string), PR #31199 on v7. |
+| [psf/black](repos/psf-black.md) | picked | 2026-11-24 midday | PICKED #5736 (--line-ranges crash with fmt: off before else/except), PR #5738. |
+| [misc 2026-11-24 midday](repos/misc-2026-11-24-midday.md) | notes | 2026-11-24 midday | Saturation notes: nearly all fresh bugs already have PRs. |
