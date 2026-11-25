@@ -183,3 +183,5 @@ Notes are updated as I go, so some may be out of date.
 | [ueberdosis/tiptap](repos/misc-2026-11-25-midday.md) | skipped | 2026-11-25 midday | SKIP: AI disclosure required plus assigned issue. |
 | [usebruno/bruno](repos/misc-2026-11-25-midday.md) | skipped | 2026-11-25 midday | SKIP: PR template AI usage checkbox. |
 | [misc 2026-11-25 midday](repos/misc-2026-11-25-midday.md) | notes | 2026-11-25 midday | Saturation notes; review fixes on fluentd #5678 and black #5738. |
+| [NousResearch/hermes-agent](repos/NousResearch-hermes-agent.md) | picked | 2026-11-25 evening | PICKED #160064 (kanban cleanup scans stub boards), PR #160077. |
+| [misc 2026-11-25 evening](repos/misc-2026-11-25-evening.md) | notes | 2026-11-25 evening | Saturation notes; semaphore #4458 race fix 7c39cd95. |
