@@ -37,3 +37,8 @@ Upstream PR creation from the cloud agent app token 403s ("Resource not accessib
 ## Update 2026-11-20 (midday run)
 - PICKED #37966 (EPIPE during SIGTERM cleanup orphans continuous tasks). PR #37970, signed head fcb8f36f. handleSignal now installs a stdout/stderr error handler that swallows only EPIPE / ERR_STREAM_DESTROYED. New spec in task-orchestrator.spec.ts; real repro verified (5 orphans -> 0, exit 130).
 - Fork sync works via merge-upstream API now.
+
+## Update 2026-11-25 (midday run)
+- PICKED #38013 (library-secondary-entry-point prefixes globs that already belong to another entry point: `secondary2/secondary1/src/**/*.ts`). Cause in update-tsconfig-included-files.ts. Claim: https://github.com/nrwl/nx/issues/38013#issuecomment-7155677265 . Agent bc-1d683939 (grok-4.7 high). PR #38021, head 0c94ff75 (verified): skip globs rooted at a dir with ng-package.json, dedupe, new spec case (fails on master).
+- Repo formats with oxfmt, not prettier. Angular specs run via `pnpm exec vitest run --config packages/angular/vitest.config.mts <spec>`. Install + build takes ~25 min on a cloud agent.
+- Agent's upstream create returned 403 but the PR still showed up under cestercian; check before opening manually.

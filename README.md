@@ -178,3 +178,8 @@ Notes are updated as I go, so some may be out of date.
 | [prisma/orm](repos/prisma-orm.md) | picked | 2026-11-24 midday | PICKED #31196 (adapter-pg shadow DB connects to main DB with a connection string), PR #31199 on v7. |
 | [psf/black](repos/psf-black.md) | picked | 2026-11-24 midday | PICKED #5736 (--line-ranges crash with fmt: off before else/except), PR #5738. |
 | [misc 2026-11-24 midday](repos/misc-2026-11-24-midday.md) | notes | 2026-11-24 midday | Saturation notes: nearly all fresh bugs already have PRs. |
+| [rclone/rclone](repos/rclone-rclone.md) | picked | 2026-11-25 midday | PICKED #10422 (crypt reports unknown size as 0), PR #10453. |
+| [nrwl/nx](repos/nrwl-nx.md) | picked | 2026-11-25 midday | PICKED #38013 (secondary entry point globs prefixed twice), PR #38021. |
+| [ueberdosis/tiptap](repos/misc-2026-11-25-midday.md) | skipped | 2026-11-25 midday | SKIP: AI disclosure required plus assigned issue. |
+| [usebruno/bruno](repos/misc-2026-11-25-midday.md) | skipped | 2026-11-25 midday | SKIP: PR template AI usage checkbox. |
+| [misc 2026-11-25 midday](repos/misc-2026-11-25-midday.md) | notes | 2026-11-25 midday | Saturation notes; review fixes on fluentd #5678 and black #5738. |

@@ -36,3 +36,10 @@ CONTRIBUTING has an "AI-assisted contributions" section: AI is welcome, no discl
 
 ## Update 2026-11-20 (midday run)
 - #10391: test used os.Stat on a lowercase name, which passes on macOS/Windows case-insensitive FS. Fixed in d2384ba7 by comparing exact ReadDir names. Fork PR CI needs maintainer approval (action_required).
+
+## Update 2026-11-25 (midday run)
+- #10424 (RemoteStats data race) is already fixed on master by #10330; skip.
+- PICKED #10422 (crypt Object.Size returns 0 when the underlying size is -1). Claim: https://github.com/rclone/rclone/issues/10422#issuecomment-7155549120 . Agent bc-2425e5ee (grok-4.7 high). PR #10453, head c55243b3 (verified). Passes negative sizes through like ObjectInfo.Size; TestObjectSizeUnknown fails on master (actual 0).
+- Agent's `gh pr create` got "Resource not accessible by integration", but the upstream PR still appeared (opened under cestercian at 07:18Z). Check for an existing PR before opening one manually.
+- #10391 linux_386 red is TestInternalMaxChunkSizeRespected in backend/cache, unrelated to the bisync change.
+- #10420 (track-renames ignores compare-dest) is still free as of this run.

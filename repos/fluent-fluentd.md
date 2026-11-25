@@ -18,3 +18,7 @@ Ruby 3.3+. `bundle config set --local path vendor/bundle && bundle install` work
 
 ## Notes
 #5676 (in_exec/out_exec_filter stop reading after one ParserError): JSON parse_io and msgpack parse_io/parse_partial_data now skip only the bad record, line mode rescues per line. #5677 (same reporter, Watson1978, maintainer) is the buffer chunk key change bug, left for later.
+
+## Update 2026-11-25 (midday run)
+- #5678: Watson1978 requested changes (msgpack rescue too wide, use `error: e`, exec_filter test only saw output at shutdown). Agent bc-0904023f pushed 772475cb (verified, DCO): rescue only around parse_time/convert_values, yield outside, new msgpack tests, his exec_filter test. Replied on all three threads.
+- Watson1978 reviews very thoroughly and posts ready-made suggestions; apply them as given.

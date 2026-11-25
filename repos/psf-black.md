@@ -18,3 +18,6 @@ None.
 
 ## Decision
 PICKED #5736 (`--line-ranges` INTERNAL ERROR on fmt: off body before else/except). Cause: `_str_with_standalone_comments` in src/black/ranges.py. PR #5738.
+
+## Update 2026-11-25 (midday run)
+- #5738: atishay-kasliwal asked to keep the no-blank-line case from #5736 and collapse the condition to one line. Agent bc-39571a5c pushed e3fdf7bf (verified): new case file line_ranges_fmt_off_else_no_blank.py. Replied on the PR.
