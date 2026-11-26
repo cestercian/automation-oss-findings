@@ -1,0 +1,6 @@
+# 2026-11-26 midday batch
+
+- rails/rails #59973 (Live streaming thread inherits the request query cache): PR #59989, head cc3adef3, verified. Fix = always exclude :active_record_used_pools and :active_record_query_cache_enabled in Live share_with. Rails env: needs libyaml-dev, libxml2-dev (apt), bundle path outside the repo; actionpack live_stream_test runs without DB gems. buildkite/docs-preview failed on the fork PR (infra-looking, not investigated).
+- bigskysoftware/htmx #4206 (filter `key` not defined on Chrome autofill): PR #4239 to four-dev, head 09adc9ef, verified. htmx 4.x work lives on four-dev (CONTRIBUTING still says dev). Tests: npx playwright install chromium, CHROME_PATH set, npm test (1846 pass). Cloud Agent App token gets "Resource not accessible by integration" on upstream PR create, so PR was opened with gh.
+- Skipped: rclone #10415 (PR #10416 exists), fluentd #5679/#5681 (maintainer Watson1978 plus competing PRs #5682/#5686), hermes-agent #160181 (bare export is a deliberate backup path with an existing guard, design question), mermaid #8700 (enhancement, not bug), payload (3 PRs already open).
+- Saturation: almost every fresh bug in the target repos already has a PR; my duplicate check must search "N in:body,title" plus `-linked:pr`.
