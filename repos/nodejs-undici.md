@@ -39,3 +39,7 @@ SKIPPED: under 10k stars; #5963 has PR #5964.
 ## Update 2026-11-23 (evening run)
 - Claimed #6246 (WebSocket messages in one chunk dispatched in same task) and opened #6248 (Fixes #6246). Fix: first message immediate, later buffered ones via setImmediate; close frame applied after message tasks (chained setImmediate turns clean close into 1006). Test: test/websocket/issue-6246.js. Lint: npm run lint. Tests: npm run test:websocket (borp). DCO sign-off required (-s).
 - Fork main was 129 commits behind: branch from upstream/main. Local HTTP/2 handshake tests fail with timeouts, ignore.
+
+## Update 2026-11-26 (evening run)
+- #6248: mcollina flagged the module-level `syncDelivery = {}` sentinel in receiver.js as risky global state. Replaced with a per-instance `#deliveredSync` flag on ByteParser (same per-message task semantics). Signed follow-up 7fc8d7f4 (normal push, DCO), issue-6246 tests 9/9, websocket suite 179/179 on the agent. Replied once in the review thread. Skull reply left alone.
+- Box note: undici tests need Node 22 (`/workspace/node-v22.21.1-linux-x64/bin`); H2 websocket tests fail on the box (env), pass on the agent VM.

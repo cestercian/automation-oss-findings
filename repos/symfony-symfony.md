@@ -49,3 +49,9 @@ Skipped: no open Bug-labeled issues except old #40705; only translation good-fir
 
 ## Update 2026-11-22 (midday run)
 - #68261 merged by nicolas-grekas (2026-11-19 16:36Z), so the 7.4 retarget question is moot. #68299 (#68306), #68298 (#68314), #68275 (#68277 merged) all taken.
+
+## Update 2026-11-26 (evening run)
+- PICKED #68446 ([Serializer] JSON int denormalized as float into `int|float`). PR #68448 to 7.4, head 498f4540 (Verified). Fix: skip the JSON int to float shortcut when the union also has int, in both validateAndDenormalize (TypeInfo) and validateAndDenormalizeLegacy. Two tests in ObjectNormalizerTest (TypeInfo + legacy getTypes-only extractor); both fail before, Serializer suite 1649 pass.
+- Reproduces on 7.4 by default (TypeInfo and the 7.4 legacy path both sort union members, float before int). 6.4 only with `@var float|int` doc order, so 7.4 was chosen and the body offers a 6.4 version.
+- Box now has PHP 8.4 + composer. Component testing recipe: `cd src/Symfony/Component/Serializer && COMPOSER_ROOT_VERSION=7.4.x-dev composer install`, then pin `--with symfony/property-info:7.4.* --with symfony/type-info:7.4.*` (composer picks 8.x otherwise and legacy anonymous extractors fatal), run phpunit 13 phar (`/tmp/phpunit13.phar`).
+- Cloud Agent got 403 on upstream PR create but the PR showed up anyway (#68448); check before running gh pr create.
