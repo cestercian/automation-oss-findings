@@ -62,3 +62,6 @@ SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
 ## Update 2026-11-18 (evening run)
 - PICKED #4226 after all: src/ext/hx-upsert.js handle_swap never reads swapSpec.sort, so new keyed items are always inserted sorted, contrary to the header comment and docs. Claim: https://github.com/bigskysoftware/htmx/issues/4226#issuecomment-6982606800 . Agent bc-ac75840d (grok-4.7 high), base four-dev. PR template file is .github/PULL_REQUEST_TEMPLATE.md (no AI clause).
 - #4189 fixed by merged #4190; #4187 has #4188; #4193 has #4198; #4199 has #4204; #4212 PRs closed (existing htmx 2 behavior). We'll have 3 open after this one: hold new htmx PRs.
+
+## 2026-11-27 evening
+- Cursor app token 403s on issue comments in htmx (claim comment not possible), so skipped #4240/#4236 (both unclaimed, no PR).
