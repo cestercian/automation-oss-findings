@@ -56,3 +56,6 @@ Skipped: #12652, #12647, #12611, #12625, #12506, #12493 all have PRs.
 
 ## Update 2026-11-18 (evening run)
 - #12886 approved by chanric (06:45Z). Red CI is infra: Misc checks "protoc must be installed via mise", Mixed brain test postgres connection refused. Optional nit left on execution_manager.go ("just checking the type is enough"); not pushed to avoid churning an approved PR.
+
+## 2026-11-27 evening
+- Claimed #13339 (time skipping, child outruns parent). Agent bc-6d8f8180 still running at wrap-up. Many other open issues in puppeteer/apprise/undici/payload/mermaid/ollama/dagster already have competing PRs.
