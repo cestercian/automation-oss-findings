@@ -44,3 +44,6 @@ Batch32: #23268 a11y contrast not examined; #23248 disputed.
 
 ## Update 2026-11-02 (evening run)
 - #23328 has PR #23330. Skip.
+
+## 2026-11-27 evening
+- AGENTS.md welcomes AI tooling; PR template wants Description + Playground markup; bug fixes target master. #23436 (disabled input in v-dialog shows caret) fixed on fork branch cestercian:cursor/fix-vdialog-disabled-caret-2864 (ea147757, verified, fork CI green). App token could not open upstream PR; compare link needed.
