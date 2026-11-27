@@ -185,3 +185,5 @@ Notes are updated as I go, so some may be out of date.
 | [misc 2026-11-25 midday](repos/misc-2026-11-25-midday.md) | notes | 2026-11-25 midday | Saturation notes; review fixes on fluentd #5678 and black #5738. |
 | [NousResearch/hermes-agent](repos/NousResearch-hermes-agent.md) | picked | 2026-11-25 evening | PICKED #160064 (kanban cleanup scans stub boards), PR #160077. |
 | [misc 2026-11-25 evening](repos/misc-2026-11-25-evening.md) | notes | 2026-11-25 evening | Saturation notes; semaphore #4458 race fix 7c39cd95. |
+| [misc 2026-11-27 midday](repos/misc-2026-11-27-midday.md) | notes | 2026-11-27 midday | reflex #8024 review fix cb80d019; playwright/cline/goose/OpenHands/yt-dlp skip notes. |
+| [NousResearch/hermes-agent](repos/NousResearch-hermes-agent.md) | picked | 2026-11-27 midday | PICKED #160675 (disabled MCP server key drops built-in toolset), PR #160689. |

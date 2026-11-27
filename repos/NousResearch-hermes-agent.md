@@ -38,3 +38,6 @@ SKIPPED: PR creation reported restricted for outside accounts; per-author PR cap
 ## 2026-11-25 evening
 - PICKED #160064 (kanban workspace cleanup scanned `_archived`/db-only stub dirs, deferring cleanup). PR #160077 (head beb683c9, Verified). Claim comment posted first.
 - No AI disclosure rule in CONTRIBUTING; PR template has Type of Change and How to Test sections.
+
+## 2026-11-27 midday
+PICKED #160675, PR #160689 (head 29a53ca5). Cloud agent must target the fork.
