@@ -65,3 +65,7 @@ SKIPPED: #4147 soft-claimed; #4006 maintainer says invalid.
 
 ## 2026-11-27 evening
 - Cursor app token 403s on issue comments in htmx (claim comment not possible), so skipped #4240/#4236 (both unclaimed, no PR).
+
+## 2026-11-28 evening
+- CONTRIBUTING: bugfixes go straight to PR against `dev`, need tests in /test, run `npm run format` and `npm test`. No AI-disclosure rule, no AGENTS.md. Refactors get auto-closed.
+- Picked #4240 (v4 settle strips attributes added between swap and settle). Free issues seen: #4236 (queued hx-sync promise fulfills early), #4221, #4219.
