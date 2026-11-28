@@ -41,3 +41,7 @@ Skipped: all current bugs have PRs.
 - #15377 already has PR #15378. Skipped.
 ## Update 2026-10-29 (evening run)
 - Still gated: PRs need an approved issue. Nothing taken.
+
+## 2026-11-28 evening
+- PR template: link issue, small bug fixes can go direct; features need a Discussions approval. No AI-disclosure rule. AGENTS.md: run `bun run build:sdk` after SDK changes.
+- Picked #15874 (desktop ask_question 300s timeout fires while typing). Other free: #15878 (duplicate history entries on reset chat).
