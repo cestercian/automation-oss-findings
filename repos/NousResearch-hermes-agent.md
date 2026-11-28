@@ -41,3 +41,6 @@ SKIPPED: PR creation reported restricted for outside accounts; per-author PR cap
 
 ## 2026-11-27 midday
 PICKED #160675, PR #160689 (head 29a53ca5). Cloud agent must target the fork.
+
+## 2026-11-28 evening
+- #160062 (cron guardrail halt recorded ok) already has PR #160090 by liwangcc; #160067 (email subject ignored) has many competing PRs (103442 etc). Skipped both. #160689 got salvaged by teknium1 in #160876.
